@@ -268,14 +268,6 @@ section {
   margin-bottom: 36px;
 }
 
-.hero-references {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.72rem;
-  color: var(--color-text-muted);
-  font-weight: 600;
-}
-
 .hero-visual {
   display: flex;
   align-items: center;
@@ -483,12 +475,6 @@ section {
 }
 
 /* ============ SUBSECTIONS / EXAMPLE PROGRAM ============ */
-.subsection-title {
-  text-align: center;
-  color: var(--color-fuchsia);
-  margin-bottom: 16px;
-}
-
 .lead-paragraph {
   max-width: 720px;
   margin: 0 auto 16px;
@@ -569,12 +555,12 @@ section {
   font-family: var(--font-display);
 }
 
-/* ============ FAQ ============ */
+/* ============ FAQ (accordion, CSS-only) ============ */
 .faq-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 760px;
   margin: 48px auto 0;
 }
 
@@ -582,17 +568,53 @@ section {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  padding: 24px 28px;
+  overflow: hidden;
 }
 
-.faq-card h3 {
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 24px;
+  cursor: pointer;
+}
+
+.faq-question h3 {
   font-size: 1.02rem;
   color: var(--color-text);
-  margin-bottom: 12px;
+  margin-bottom: 0;
 }
 
-.card-content-sm {
-  max-height: 5.4em;
+.faq-toggle-icon {
+  flex-shrink: 0;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-turquoise);
+  line-height: 1;
+  transition: transform 0.25s ease;
+}
+
+.card-toggle:checked ~ .faq-question .faq-toggle-icon {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 24px;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.card-toggle:checked ~ .faq-answer {
+  max-height: 600px;
+  padding: 0 24px 22px;
+}
+
+.card-toggle:focus-visible ~ .faq-question {
+  outline: 2px solid var(--color-turquoise);
+  outline-offset: -2px;
 }
 
 /* ============ CONTACT / KESIF GORUSMESI ============ */
@@ -618,20 +640,6 @@ section {
   margin-bottom: 12px;
   font-size: 1rem;
   color: var(--color-text);
-}
-
-.office-label {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: var(--color-text-muted);
-  margin-bottom: 4px;
-}
-
-.office-address {
-  color: var(--color-text);
-  font-size: 0.95rem;
 }
 
 .contact-form-wrapper {
@@ -759,10 +767,6 @@ section {
     grid-template-columns: 1fr;
   }
 
-  .faq-grid {
-    grid-template-columns: 1fr;
-  }
-
   .contact-grid {
     grid-template-columns: 1fr;
   }
@@ -815,10 +819,17 @@ section {
   .callout,
   .outcomes-box,
   .contact-form-wrapper,
-  .faq-card,
   .trainer-card,
   .problem-card {
     padding: 24px;
+  }
+
+  .faq-question {
+    padding: 16px 20px;
+  }
+
+  .card-toggle:checked ~ .faq-answer {
+    padding: 0 20px 18px;
   }
 
   .footer-bar {
