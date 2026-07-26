@@ -9,12 +9,15 @@
   --color-bg: #edeee6;
   --color-bg-alt: #e4e6db;
   --color-surface: #f5f6f0;
-  --color-text: #24262b;
+  --color-text: #1f2430;
   --color-text-muted: #6b6f72;
   --color-border: #cfd2c4;
-  --color-accent-start: #f6c9a0;
-  --color-accent-end: #ec9a83;
-  --color-accent-solid: #e08a6f;
+  --color-fuchsia: #d52283;
+  --color-fuchsia-hover: #b9186c;
+  --color-fuchsia-soft: #fce5f1;
+  --color-turquoise: #0aafc0;
+  --color-turquoise-hover: #078d9d;
+  --color-turquoise-soft: #d9f2f1;
   --max-width: 1160px;
   --radius: 8px;
   --font-display: "Space Grotesk", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -121,7 +124,7 @@ section {
   letter-spacing: 0.14em;
   font-size: 0.72rem;
   font-weight: 600;
-  color: var(--color-accent-solid);
+  color: var(--color-fuchsia);
   margin-bottom: 1rem;
 }
 
@@ -145,24 +148,26 @@ section {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--color-accent-start), var(--color-accent-end));
-  color: var(--color-text);
+  background: var(--color-turquoise);
+  color: #ffffff;
 }
 
 .btn-primary:hover {
-  box-shadow: 0 4px 14px rgba(224, 138, 111, 0.35);
+  background: var(--color-turquoise-hover);
+  box-shadow: 0 4px 14px rgba(10, 175, 192, 0.35);
   transform: translateY(-1px);
 }
 
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-text);
-  color: var(--color-text);
+  border-color: var(--color-fuchsia);
+  color: var(--color-fuchsia);
 }
 
 .btn-ghost:hover {
-  background-color: var(--color-text);
-  color: var(--color-bg);
+  background-color: var(--color-fuchsia-soft);
+  border-color: var(--color-fuchsia-hover);
+  color: var(--color-fuchsia-hover);
 }
 
 .btn-nav {
@@ -230,7 +235,7 @@ section {
 }
 
 .main-nav a:hover {
-  color: var(--color-text);
+  color: var(--color-turquoise);
 }
 
 /* ============ HERO ============ */
@@ -333,7 +338,7 @@ section {
   font-family: var(--font-display);
   font-size: 1.6rem;
   font-weight: 700;
-  color: var(--color-accent-solid);
+  color: var(--color-turquoise);
 }
 
 .row-cta {
@@ -344,6 +349,12 @@ section {
   color: var(--color-text);
   border-bottom: 1px solid var(--color-text);
   padding-bottom: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.row-cta:hover {
+  color: var(--color-turquoise-hover);
+  border-color: var(--color-turquoise-hover);
 }
 
 /* ============ CARD GRIDS ============ */
@@ -377,14 +388,14 @@ section {
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: var(--color-accent-solid);
+  color: var(--color-turquoise);
   margin-bottom: 10px;
 }
 
 /* ============ SUBSECTIONS / EXAMPLE PROGRAM ============ */
 .subsection-title {
   text-align: center;
-  color: var(--color-accent-solid);
+  color: var(--color-fuchsia);
   margin-bottom: 16px;
 }
 
@@ -464,7 +475,7 @@ section {
 }
 
 .trainer-card h4 {
-  color: var(--color-accent-solid);
+  color: var(--color-fuchsia);
   font-family: var(--font-display);
 }
 
@@ -574,7 +585,7 @@ section {
 
 .contact-form input:focus {
   outline: none;
-  border-bottom-color: var(--color-accent-solid);
+  border-bottom-color: var(--color-turquoise);
 }
 
 .contact-form button {
@@ -587,7 +598,7 @@ section {
 }
 
 .footer-banner {
-  background: linear-gradient(135deg, var(--color-accent-start), var(--color-accent-end));
+  background: linear-gradient(120deg, var(--color-turquoise), var(--color-fuchsia));
   padding: 44px 0;
   text-align: center;
 }
@@ -627,7 +638,7 @@ section {
 }
 
 .footer-nav a:hover {
-  color: var(--color-text);
+  color: var(--color-turquoise);
 }
 
 /* ============ RESPONSIVE ============ */
