@@ -271,35 +271,17 @@ section {
   font-weight: 600;
 }
 
-.visual-panel {
-  background-color: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding: 28px;
+.hero-visual {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
-  background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
-  background-size: 14px 14px;
+  align-items: center;
+  justify-content: center;
 }
 
-.visual-row {
-  height: 46px;
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  background-color: rgba(245, 246, 240, 0.7);
-}
-
-.visual-row.short {
-  width: 60%;
-}
-
-.visual-block {
-  height: 120px;
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  background: linear-gradient(135deg, var(--color-accent-start), var(--color-accent-end));
-  opacity: 0.85;
+.visual-illustration {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
 }
 
 /* ============ CALLOUT ============ */
