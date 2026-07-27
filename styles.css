@@ -281,6 +281,16 @@ section {
   height: auto;
 }
 
+.hero-grid-top {
+  align-items: start;
+}
+
+.visual-illustration-compact {
+  max-width: 300px;
+  max-height: 480px;
+  width: auto;
+}
+
 /* ============ CALLOUT ============ */
 .callout {
   background-color: var(--color-surface);
@@ -937,6 +947,10 @@ section {
     order: -1;
   }
 
+  .visual-illustration-compact {
+    max-height: 320px;
+  }
+
   .row-item {
     grid-template-columns: 1fr;
     gap: 10px;
@@ -976,6 +990,10 @@ section {
   .card-grid-3,
   .card-grid-5 {
     grid-template-columns: 1fr;
+  }
+
+  .visual-illustration-compact {
+    max-height: 240px;
   }
 
   .header-inner {
