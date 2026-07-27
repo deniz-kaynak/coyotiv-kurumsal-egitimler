@@ -221,6 +221,46 @@ section {
   gap: 12px;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.lang-switch .lang-current {
+  color: var(--color-text);
+}
+
+.lang-switch .lang-sep {
+  color: var(--color-border);
+}
+
+.lang-switch a {
+  color: var(--color-text-muted);
+  transition: color 0.15s ease;
+}
+
+.lang-switch a:hover {
+  color: var(--color-turquoise);
+}
+
+.coming-soon {
+  text-align: center;
+}
+
+.coming-soon h1 {
+  font-size: 2.6rem;
+}
+
 .logo {
   display: inline-flex;
   align-items: center;
@@ -1364,7 +1404,7 @@ section {
     row-gap: 10px;
   }
 
-  .header-ctas {
+  .header-right {
     width: 100%;
     justify-content: flex-end;
   }
