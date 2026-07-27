@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript'in Sorunu Ne? | Coyotiv Blog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="assets/coyotiv-logo.png" alt="Coyotiv" class="logo-img"></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="blog.html#yazilar">Yazılar</a></li>
+      </ul>
+    </nav>
+    <div class="header-ctas">
+      <a href="index.html" class="btn btn-fuchsia btn-nav">Kurumsal Eğitimler</a>
+      <a href="yazilim-okulu.html" class="btn btn-primary btn-nav">Yazılım Okulu</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="section article-section">
+    <div class="container">
+      <div class="article">
+        <a href="blog.html" class="article-crosslink">← Tüm yazılara dön</a>
+        <p class="article-meta">Teknoloji &amp; Mühendislik · 27 Temmuz 2026 · 13 dk okuma</p>
+        <h1>JavaScript'in sorunu ne?</h1>
+
+        <img src="assets/blog/javascript-sorunu-cover.avif" alt="Bir laptopta çalışan bir kadın, ekranda kod ve renkli bir arayüz görünüyor." class="article-cover">
+
+        <div class="article-body">
+          <p class="article-lead">Bir JavaScript geliştiricisinin çalışma hayatı bazen hiç bitmeyen bir taşınmaya benziyor.</p>
+
+          <p>Tam bir framework'e alışmışken yenisi çıkıyor. Uygulamanın yapısını oturtmuşken "artık bunu böyle yapmıyoruz" deniyor. Dün modern kabul edilen yaklaşım bugün teknik borç, geçen ay heyecan yaratan kütüphane bu ay terk edilmiş proje hâline gelebiliyor.</p>
+
+          <p>Sonra yeni bir video beliriyor:</p>
+
+          <blockquote>"React artık öldü mü?"</blockquote>
+
+          <p>Ardından bir başkası:</p>
+
+          <blockquote>"2026'da öğrenmeniz gereken tek framework."</blockquote>
+
+          <p>Geliştirici, elindeki ürünü iyileştirmek yerine bir kez daha araç seçmeye başlıyor. Karşılaştırma tabloları açılıyor, benchmark'lar inceleniyor, örnek uygulamalar kuruluyor. Birkaç gün sonra henüz ortada gerçek bir kullanıcı yokken teknoloji yığını hazır: framework, meta-framework, durum yönetimi kütüphanesi, doğrulama aracı, veri çekme katmanı, animasyon paketi ve bütün bunları birbirine bağlayan onlarca bağımlılık.</p>
+
+          <p>JavaScript'in gücü de sorunu da burada yatıyor.</p>
+
+          <p>Neredeyse her şeyi yapabilirsiniz.</p>
+
+          <p>Fakat her şeyi yapabiliyor olmak, her şeyi yapmanız gerektiği anlamına gelmiyor.</p>
+
+          <h2>Geliştiriciler JavaScript'i neden seviyor?</h2>
+
+          <p>JavaScript, web'in yerleşik programlama dili. Kullanıcının ayrıca bir çalışma ortamı kurmasına gerek kalmadan bütün büyük tarayıcılarda çalışıyor. Node.js sayesinde sunucu tarafında, React Native ve benzeri araçlarla mobil uygulamalarda, farklı çalışma ortamlarıyla masaüstü yazılımlarında ve giderek daha fazla cihazda kullanılabiliyor.</p>
+
+          <p>Bu erişim alanı, JavaScript'i benzersiz kılıyor.</p>
+
+          <p>Bir geliştirici aynı dil ailesiyle kullanıcı arayüzü, sunucu, komut satırı aracı ve mobil uygulama geliştirebiliyor. Bir fikri küçük bir tarayıcı betiğiyle denemek de milyonlarca kişinin kullandığı bir ürüne dönüştürmek de mümkün.</p>
+
+          <p>JavaScript ayrıca öğrenmeye başlamak için görece düşük bir giriş eşiğine sahip. Bir metin editörü ve tarayıcı, ilk kodu çalıştırmak için yeterli. Sonucu anında görmek, özellikle yeni başlayanlar için güçlü bir motivasyon sağlıyor.</p>
+
+          <p>Bu kolay başlangıç, JavaScript'in basit bir dil olduğu anlamına gelmiyor. Dilin tür dönüşümleri, eşzamansız çalışma yapısı, nesne modeli ve tarih boyunca biriktirdiği davranışlar deneyimli geliştiricileri bile şaşırtabiliyor. TypeScript'in JavaScript'e statik tür denetimi ekleyerek bu kadar yaygınlaşmasının nedenlerinden biri de büyük uygulamalarda bu belirsizlikleri daha erken yakalama ihtiyacı. TypeScript'in kendi tanımıyla araç, "türler için sözdizimi eklenmiş JavaScript" sunuyor.</p>
+
+          <p>Yine de bütün tuhaflıklarına rağmen JavaScript kaybolmuyor. ECMAScript standardı TC39 tarafından düzenli biçimde geliştiriliyor; dil her yıl küçük ve geriye dönük uyumluluğu gözeten adımlarla ilerliyor. 2026 sürümü, ECMAScript standardının 17. edisyonu.</p>
+
+          <p>Başka bir ifadeyle JavaScript hâlâ yaşıyor, gelişiyor ve web'in merkezindeki yerini koruyor.</p>
+
+          <p>Asıl soru şu:</p>
+
+          <p>Bu kadar güçlü ve yaygın bir dilin etrafında çalışmak neden bazen bu kadar yorucu?</p>
+
+          <h2>Sorun dilin kendisinden daha büyük</h2>
+
+          <p>JavaScript'e yönelik eleştiriler çoğu zaman dilin tutarsızlıklarına odaklanıyor. Ancak geliştiricilerin günlük hayatta yaşadığı yorgunluğun önemli bir kısmı JavaScript'in sözdiziminden değil, çevresinde oluşan araç ekonomisinden kaynaklanıyor.</p>
+
+          <p>JavaScript ekosisteminde bir probleme yalnızca tek bir çözüm bulunmuyor. Çoğu zaman onlarca çözüm bulunuyor.</p>
+
+          <p>Kullanıcı arayüzü geliştirmek için React, Vue, Angular, Svelte, Solid ve başka seçenekler var. Bunların üzerine Next.js, Nuxt, SvelteKit ve benzeri uygulama çatıları geliyor. Durum yönetimi, stil, veri çekme, form yönetimi, test, paketleme ve sunucu tarafında da çok sayıda alternatif bulunuyor.</p>
+
+          <p>Bu çeşitlilik yenilik üretimini hızlandırıyor. Bir aracın çözemediği problem, başka bir topluluğun yeni bir yaklaşım geliştirmesine yol açabiliyor.</p>
+
+          <p>Fakat aynı çeşitlilik sürekli karar vermeyi de zorunlu kılıyor.</p>
+
+          <p>State of JavaScript 2024 sonuçlarında React kullanım bakımından güçlü konumunu korurken Vue ikinci sırada yer alıyor; Svelte ise olumlu görüşlerde üst sıralarda bulunuyor. Bu tablo tek bir aracın bütün ekosistemi ele geçirdiğini değil, farklı güçlü seçeneklerin yan yana yaşamaya devam ettiğini gösteriyor.</p>
+
+          <p>Sorun çok seçenek bulunması değil.</p>
+
+          <p>Sorun, her yeni seçeneğin eskisini anlamsızlaştırdığı duygusunun yaratılması.</p>
+
+          <h2>Framework yorgunluğu nasıl oluşuyor?</h2>
+
+          <p>Yeni bir framework genellikle gerçek bir rahatsızlıktan doğar.</p>
+
+          <p>Mevcut araç fazla karmaşıktır. Performans sorunu yaşatıyordur. Çok fazla istemci tarafı JavaScript gönderiyordur. Durum yönetimi güçtür. Sunucu ve istemci arasındaki sınır yeterince açık değildir. Geliştirici deneyimi zayıftır.</p>
+
+          <p>Yeni araç bu sorunlardan bazılarını daha iyi çözer. İlk örnekler etkileyicidir. Küçük uygulamalarda daha az kodla daha fazla iş yapılır. Sosyal medyada benchmark sonuçları paylaşılır. Konferans konuşmaları başlar.</p>
+
+          <p>Sonra çözümün etrafında yeni bir ekosistem oluşur.</p>
+
+          <p>Eklentiler, uyum katmanları, öğrenme kaynakları, sertifikalar, danışmanlık hizmetleri ve içerik ekonomisi ortaya çıkar. Teknik bir seçenek giderek kimliğe dönüşür. İnsanlar kullandıkları framework'ü savunmaya, diğer araçları küçümsemeye başlar.</p>
+
+          <p>Bir süre sonra aracın kendisini değerlendirmekle topluluğun heyecanına kapılmak birbirinden ayrılması zor iki şeye dönüşür.</p>
+
+          <p>Framework'ler doğal olarak gelişir. React Compiler 1.0'ın 2025'te yayımlanması, React'in performans optimizasyonlarının bir bölümünü geliştiriciden derleyiciye taşıma çabasının örneklerinden biri. Yeni React projeleri bu derleyiciyi etkin biçimde kullanabilecek şekilde kurulabiliyor. Bu, ekosistemin yalnızca yeni framework'ler çıkararak değil, mevcut araçların çalışma modelini dönüştürerek de geliştiğini gösteriyor.</p>
+
+          <p>Bu gelişmeler değerlidir. Ancak bir aracın yeni özellik kazanması, her projenin hemen o özelliğe veya araca geçmesi gerektiği anlamına gelmez.</p>
+
+          <p>Yenilik ile zorunluluk aynı şey değildir.</p>
+
+          <h2>En yeni araç, en doğru araç olmayabilir</h2>
+
+          <p>Yazılım dünyasında yeni olan şey çoğu zaman daha görünürdür.</p>
+
+          <p>Kendini kanıtlamış bir teknoloji hakkında "beş yıldır sorunsuz çalışıyor" başlıklı videolar pek heyecan yaratmaz. Buna karşılık "web geliştirmeyi sonsuza dek değiştirecek yeni framework" kolayca dikkat çeker.</p>
+
+          <p>Fakat gerçek projelerde teknoloji seçimi heyecan yarışması değildir.</p>
+
+          <p>Yeni bir araç performans testinde birkaç puan önde olabilir. Ancak ekibiniz onu tanımıyorsa, dokümantasyonu yetersizse, hata ayıklama araçları olgunlaşmamışsa ve iki yıl sonra bakımını kimin üstleneceği belirsizse teorik avantaj hızla kaybolabilir.</p>
+
+          <p>Teknoloji seçerken yalnızca bugün ne kadar hızlı kod yazdığınıza değil, sistemin üç yıl sonraki durumuna da bakmanız gerekir.</p>
+
+          <p>Şu sorular daha değerlidir:</p>
+
+          <p>Bu araç hangi gerçek problemi çözüyor?</p>
+
+          <p>Mevcut çözümümüz bu problem nedeniyle gerçekten başarısız mı oluyor?</p>
+
+          <p>Yeni araç ekibin bilişsel yükünü azaltıyor mu, artırıyor mu?</p>
+
+          <p>Aracın arkasında sürdürülebilir bir topluluk veya kurum var mı?</p>
+
+          <p>Güncellemeler geriye dönük uyumluluğu ne ölçüde koruyor?</p>
+
+          <p>Hata ayıklamak kolay mı?</p>
+
+          <p>Temel özellikleri açık web standartları üzerine mi kurulu?</p>
+
+          <p>Araç terk edilirse sistemden çıkarmak ne kadar zor?</p>
+
+          <p>Bir teknolojinin iyi görünmesiyle projeniz için doğru olması arasında uzun bir mesafe olabilir.</p>
+
+          <h2>Bilimsel düşünmek ne anlama geliyor?</h2>
+
+          <p>Teknoloji seçerken "bilimsel yöntem kullanın" demek kulağa iddialı gelebilir. Yazılım geliştirme kontrollü laboratuvar koşullarında yürütülen bir fizik deneyi değildir. İnsanlar, ekip kültürü, teslim tarihleri ve değişen iş ihtiyaçları sonuçları etkiler.</p>
+
+          <p>Yine de bilimsel düşüncenin temel ilkeleri son derece işe yarar.</p>
+
+          <p>İlk olarak iddianızı açıkça tanımlayın.</p>
+
+          <p>"Bu framework daha iyi" ölçülebilir bir iddia değildir.</p>
+
+          <p>"Bu framework, bizim ürünümüzde ilk yükleme süresini azaltacak", "ekibin yeni özellik geliştirme süresini kısaltacak" veya "sunucu maliyetini düşürecek" gibi ifadeler daha anlamlıdır.</p>
+
+          <p>Ardından küçük bir deney yapın.</p>
+
+          <p>Gerçek uygulamanızdaki zor bir özelliği seçin. Yalnızca yapılacaklar listesi gibi bütün framework'lerin kolayca çözdüğü bir demo hazırlamayın. Kimlik doğrulama, karmaşık form, gerçek veri, hata yönetimi ve test içeren küçük ama temsil gücü yüksek bir bölüm geliştirin.</p>
+
+          <p>Sonra ölçün:</p>
+
+          <p>Ne kadar kod yazıldı?</p>
+
+          <p>Geliştirmek ne kadar sürdü?</p>
+
+          <p>Üretim çıktısı ne kadar büyük?</p>
+
+          <p>Uygulama düşük güçlü bir cihazda nasıl çalışıyor?</p>
+
+          <p>Hataları bulmak ne kadar kolay?</p>
+
+          <p>Yeni bir geliştirici kodu ne kadar sürede anlayabiliyor?</p>
+
+          <p>Test yazmak kolay mı?</p>
+
+          <p>Araçtan çıkmak gerekirse maliyet ne olacak?</p>
+
+          <p>Benchmark, teknoloji seçiminin bir parçasıdır. Tamamı değil.</p>
+
+          <h2>İçgüdünüze güvenin, ama onu kanıtla sınayın</h2>
+
+          <p>Bir aracın geliştiriciye nasıl hissettirdiği küçümsenmemeli.</p>
+
+          <p>Kod gereksiz yere tekrarlanıyor mu? Basit bir özelliği gerçekleştirmek için çok sayıda dosya mı açmanız gerekiyor? Aracın doğal akışına uymak için probleminizi yapay biçimde mi değiştiriyorsunuz? Hata mesajları size yardımcı oluyor mu, yoksa sistemin içinde kayboluyor musunuz?</p>
+
+          <p>Geliştirici deneyimi gerçek bir maliyet unsurudur.</p>
+
+          <p>Kötü tasarlanmış bir araç yalnızca moral bozmaz. Geliştirme süresini uzatır, hataları artırır ve ekip içindeki bilgi aktarımını zorlaştırır.</p>
+
+          <p>Ancak "bana doğal geldi" tek başına yeterli bir ölçüt değildir. İnsanlar bildikleri araçları daha sezgisel bulma eğilimindedir. Bir geliştirici yıllardır kullandığı framework'ü rahat, farklı bir yaklaşımı gereksiz karmaşık görebilir.</p>
+
+          <p>Bu nedenle içgüdü başlangıç sinyali olarak değerlidir; nihai kanıt olarak değil.</p>
+
+          <p>Bir araç hoşunuza gidiyorsa nedenini sorun.</p>
+
+          <p>Daha az kavram mı gerektiriyor?</p>
+
+          <p>Daha açık hata mesajları mı sunuyor?</p>
+
+          <p>Kodun çalışma biçimini görmeyi mi kolaylaştırıyor?</p>
+
+          <p>Yoksa yalnızca daha önce kullandığınız şeye mi benziyor?</p>
+
+          <h2>Kaynak kodu anlayabiliyor musunuz?</h2>
+
+          <p>Bir kütüphanenin her satırını okumak çoğu proje için gerçekçi değildir. Modern uygulamalar yüzlerce, hatta binlerce dolaylı bağımlılık içerebilir.</p>
+
+          <p>Yine de kullandığınız temel araçların nasıl çalıştığını anlamaya çalışmak önemlidir.</p>
+
+          <p>Framework hangi aşamada ne yapıyor?</p>
+
+          <p>Kodunuz tarayıcıya nasıl ulaşıyor?</p>
+
+          <p>Durum değiştiğinde arayüz neden yeniden oluşturuluyor?</p>
+
+          <p>Sunucu ve istemci arasındaki sınır nerede?</p>
+
+          <p>Derleme sırasında hangi dönüşümler gerçekleşiyor?</p>
+
+          <p>Bir hata oluştuğunda hangi katmanda aramalısınız?</p>
+
+          <p>Kaynak kodu açık olan projelere teorik olarak katkıda bulunabilirsiniz. Orijinal metindeki "popüler kurumsal framework'lere katkı sunamayız" yaklaşımı bugün genelleştirilemez; React, Angular, Vue ve pek çok büyük JavaScript projesi açık kaynaklıdır ve katkı süreçleri bulunur. Ancak kaynak kodunun açık olması, projenin yönünü topluluğun eşit biçimde belirlediği anlamına gelmez. Büyük projelerde yol haritası, yönetişim modeli ve katkı kabul süreci yine belirli kurumlar veya çekirdek ekipler tarafından yönetilebilir.</p>
+
+          <p>Asıl mesele her paketi fork etmek değil.</p>
+
+          <p>Kullandığınız soyutlamanın altında ne olduğunu anlayacak kadar meraklı olmak.</p>
+
+          <p>Bir framework sizin adınıza çok fazla karar veriyorsa, bu kararların ne olduğunu bilmelisiniz.</p>
+
+          <h2>Bağımlılık sayısı yalnızca teknik bir ayrıntı değil</h2>
+
+          <p>JavaScript ekosisteminin üretkenliği büyük ölçüde npm üzerinde paylaşılan küçük ve yeniden kullanılabilir paketlere dayanıyor.</p>
+
+          <p>Bu model, geliştiricilerin daha önce çözülmüş sorunlarla tekrar uğraşmasını engelliyor. Tarih biçimlendirmek, veri doğrulamak, HTTP isteği göndermek veya karmaşık dosyaları işlemek için her şeyi sıfırdan yazmak gerekmiyor.</p>
+
+          <p>Fakat her bağımlılık aynı zamanda başka bir kişinin koduna, hesabına, yayınlama sürecine ve güvenlik uygulamalarına duyulan güven anlamına geliyor.</p>
+
+          <p>Bu soyut bir risk değil.</p>
+
+          <p>CISA, Eylül 2025'te npm ekosisteminde 500'den fazla paketi etkileyen geniş çaplı bir tedarik zinciri saldırısı hakkında uyarı yayımladı. Temmuz 2026'da ise Microsoft araştırmacıları AsyncAPI organizasyonuna ait npm paketlerinin ve güvenilen CI/CD süreçlerinin kötüye kullanıldığı ayrı bir saldırıyı belgeledi.</p>
+
+          <p>Bu olaylar "açık kaynak kullanmayın" anlamına gelmiyor. Modern yazılım geliştirme zaten büyük ölçüde açık kaynak üzerine kurulu.</p>
+
+          <p>Ancak "üç satır kod yazmamak için bir paket eklemek" masum bir karar olmayabilir.</p>
+
+          <p>Yeni bir bağımlılık eklerken şunları değerlendirin:</p>
+
+          <p>Paket gerçekten gerekli mi?</p>
+
+          <p>Aynı iş tarayıcının veya çalışma ortamının yerleşik özellikleriyle yapılabiliyor mu?</p>
+
+          <p>Paket aktif biçimde bakılıyor mu?</p>
+
+          <p>Kaç bakımcısı var?</p>
+
+          <p>Yayınlama süreci korunuyor mu?</p>
+
+          <p>Kurulum sırasında betik çalıştırıyor mu?</p>
+
+          <p>Bağımlılık ağacı ne kadar büyüyor?</p>
+
+          <p>Sürümü sabitlemek veya paket bütünlüğünü doğrulamak mümkün mü?</p>
+
+          <p>Projede güvenlik güncellemelerini takip eden otomatik bir süreç var mı?</p>
+
+          <p>Kod tekrarından kaçınmak iyi bir ilkedir. Fakat birkaç satırı yeniden kullanmamak uğruna yüzlerce dolaylı bağımlılık yüklemek her zaman üretkenlik değildir.</p>
+
+          <p>Bazen en güvenli bağımlılık, hiç eklemediğiniz bağımlılıktır.</p>
+
+          <h2>Tarayıcı artık eskisinden daha yetenekli</h2>
+
+          <p>Framework'lerin ve yardımcı kütüphanelerin önemli bir bölümü, tarayıcıların geçmişte sunmadığı özellikleri tamamlamak için ortaya çıktı.</p>
+
+          <p>Ancak web platformu da gelişiyor.</p>
+
+          <p>Yeni JavaScript sözdizimleri, CSS özellikleri, web bileşenleri, form olanakları ve tarayıcı API'leri daha önce harici araç gerektiren pek çok işi doğrudan yapabilir hâle geliyor.</p>
+
+          <p>Web Platform Baseline girişimi, geliştiricilere bir web özelliğinin temel tarayıcı grubunda kullanılmaya hazır olup olmadığı konusunda ortak bir referans sunuyor. Böylece bir özelliği kullanmadan önce sayısız uyumluluk tablosu arasında kaybolma ihtiyacı azalıyor.</p>
+
+          <p>Bu gelişme framework'leri gereksiz kılmıyor.</p>
+
+          <p>Karmaşık uygulamalarda bileşen modeli, yönlendirme, sunucu tarafı oluşturma, veri yönetimi ve ekip standardizasyonu hâlâ büyük değer taşıyabilir.</p>
+
+          <p>Ancak her yeni proje için varsayılan olarak ağır bir teknoloji yığını kurma alışkanlığını sorgulamamızı sağlıyor.</p>
+
+          <p>Bazen ihtiyaç duyduğunuz şey bir framework değil, HTML, CSS ve birkaç iyi yazılmış JavaScript modülüdür.</p>
+
+          <p>Daha az araç kullanmak teknolojiden geri kalmak değildir.</p>
+
+          <p>Probleme uygun ölçekte çözüm kurmaktır.</p>
+
+          <h2>AI bu karmaşayı azaltıyor mu, büyütüyor mu?</h2>
+
+          <p>Üretken yapay zekâ araçları, yeni bir framework'ü öğrenme süresini önemli ölçüde kısaltabilir.</p>
+
+          <p>Bir geliştirici artık dokümantasyonda saatlerce arama yapmak yerine kod tabanını modele açıklatabilir, bir örnek oluşturabilir veya eski bir API kullanımını yenisine dönüştürebilir.</p>
+
+          <p>Bu, framework yorgunluğunu azaltabilecek güçlü bir gelişme.</p>
+
+          <p>Aynı zamanda sorunu büyütme ihtimali de var.</p>
+
+          <p>AI araçları birkaç saniye içinde çok sayıda bağımlılık içeren, geliştiricinin tam olarak anlamadığı bir teknoloji yığını oluşturabilir. Model, eğitim verisinde sık gördüğü kalıpları önerdiği için ihtiyacınız olmayan kütüphaneleri varsayılan olarak ekleyebilir. Eski sürümlere ait yöntemleri yeni kodla karıştırabilir veya gerçekte var olmayan API'ler üretebilir.</p>
+
+          <p>Stack Overflow'un 2025 araştırmasına 177 ülkeden 49 binden fazla geliştirici katıldı. Araştırma, AI araçlarının yazılım geliştirmede yaygınlaştığını; buna karşılık araçların çıktısına duyulan güvenin aynı ölçüde artmadığını gösteriyor.</p>
+
+          <p>AI'ın kod üretmesi, teknoloji seçimini sizin yerinize yapması gerektiği anlamına gelmiyor.</p>
+
+          <p>Modelden yalnızca "bunu nasıl kurarım?" sorusunun cevabını istemeyin.</p>
+
+          <p>Şunları da sorun:</p>
+
+          <p>Bu projede neden bu framework'e ihtiyacım var?</p>
+
+          <p>Bunu yerleşik web API'leriyle çözebilir miyim?</p>
+
+          <p>Eklediğin her bağımlılığın görevi ne?</p>
+
+          <p>Daha küçük bir alternatif var mı?</p>
+
+          <p>Bu kod hangi sürüm için geçerli?</p>
+
+          <p>Güvenlik ve bakım riskleri neler?</p>
+
+          <p>Ürettiğin çözümü nasıl test edebilirim?</p>
+
+          <p>AI, geliştiricinin eleştirel düşünmesini ortadan kaldıran bir makine değil; eleştirel düşünme kapasitesini büyüten bir araç olmalı.</p>
+
+          <p>Aksi hâlde framework yorgunluğunun yerini AI tarafından üretilmiş teknik borç alır.</p>
+
+          <h2>Hype'ın peşinden koşmayın</h2>
+
+          <p>Yazılım dünyasında yeni teknolojileri bütünüyle görmezden gelmek mümkün değil.</p>
+
+          <p>Bugünün deneysel yaklaşımı yarının standardı olabilir. Yeni framework'ler eski sistemlerin çözemediği sorunlara daha iyi cevap verebilir. Bir geliştiricinin kendini güncel tutması mesleğin doğal parçasıdır.</p>
+
+          <p>Ancak güncel kalmak ile sürekli teknoloji değiştirmek aynı şey değildir.</p>
+
+          <p>Her yeni aracı üretim sisteminize almak zorunda değilsiniz.</p>
+
+          <p>Yeni araçları takip edebilir, küçük deneylerde kullanabilir ve fikirlerinden yararlanabilirsiniz. Ama gerçek projede benimsemek için daha yüksek bir kanıt eşiği belirleyebilirsiniz.</p>
+
+          <p>Yeni bir framework gördüğünüzde kendinize şu üç soruyu sorun:</p>
+
+          <p>Hangi problemi çözüyor?</p>
+
+          <p>Bu problem bende gerçekten var mı?</p>
+
+          <p>Geçiş maliyetine değecek kadar iyi çözüyor mu?</p>
+
+          <p>Üçüncü soruya güçlü bir cevap veremiyorsanız beklemek çoğu zaman akıllıca bir mühendislik kararıdır.</p>
+
+          <p>Teknolojinin biraz sıkıcı hâle gelmesini bekleyin.</p>
+
+          <p>Dokümantasyonunun olgunlaşmasını, ilk büyük hatalarının bulunmasını, gerçek projelerde nasıl davrandığının görülmesini ve topluluğun yalnızca heyecanlı ilk kullanıcılardan ibaret olmaktan çıkmasını izleyin.</p>
+
+          <p>Sıkıcı teknoloji çoğu zaman kötü teknoloji değildir.</p>
+
+          <p>Bazen yalnızca işini yaptığı için hakkında daha az konuşulan teknolojidir.</p>
+
+          <h2>Üretkenlik yalnızca daha hızlı kod yazmak değildir</h2>
+
+          <p>Bir framework seçerken üretkenlik genellikle ilk özelliğin ne kadar hızlı geliştirildiğiyle ölçülüyor.</p>
+
+          <p>Oysa gerçek üretkenlik daha uzun bir zaman aralığında ortaya çıkar.</p>
+
+          <p>Kod altı ay sonra kolayca değiştirilebiliyor mu?</p>
+
+          <p>Yeni ekip üyesi projeyi anlayabiliyor mu?</p>
+
+          <p>Güncelleme yapmak sistemi sürekli bozuyor mu?</p>
+
+          <p>Hatalar üretime çıkmadan yakalanabiliyor mu?</p>
+
+          <p>Kullanıcıya gönderilen JavaScript miktarı makul mü?</p>
+
+          <p>Geliştiriciler kod tabanında çalışmaktan memnun mu?</p>
+
+          <p>Sistem güvenli biçimde güncellenebiliyor mu?</p>
+
+          <p>Üretkenlik, bugün daha fazla kod yazmak değil; zaman içinde sürdürülebilir biçimde değer üretmektir.</p>
+
+          <p>Bir aracın GitHub yıldızları, npm indirme sayıları veya Stack Overflow soru sayısı yararlı sinyaller olabilir. Fakat kaliteyi tek başlarına kanıtlamazlar.</p>
+
+          <p>Çok soru sorulması büyük bir topluluğa işaret edebilir. Aynı zamanda aracın anlaşılmasının zor olduğunu da gösterebilir.</p>
+
+          <p>Çok sayıda GitHub sorunu aktif geliştirmeye işaret edebilir. Projenin ciddi kalite problemleri yaşadığını da gösterebilir.</p>
+
+          <p>Rakamlar bağlamdan bağımsız konuşmaz.</p>
+
+          <h2>En iyi framework hangisi?</h2>
+
+          <p>Bu sorunun dürüst cevabı çoğu insanın hoşuna gitmez:</p>
+
+          <p>Projeye, ekibe ve zamana göre değişir.</p>
+
+          <p>İçerik ağırlıklı küçük bir site için en iyi araç, büyük bir finans uygulaması için doğru olmayabilir. Beş kişilik deneyimli bir ekip için verimli olan yaklaşım, hızla büyüyen ve çok sayıda yeni geliştiricinin katıldığı bir organizasyonda sorun yaratabilir.</p>
+
+          <p>Yine de iyi araçların bazı ortak özelliklerinden söz edilebilir.</p>
+
+          <p>İyi bir framework probleminizi gizlemek yerine anlaşılır hâle getirir.</p>
+
+          <p>Az sayıda temel kavramla çok iş yapmanızı sağlar.</p>
+
+          <p>Sizi sürekli kendi iç ayrıntılarıyla uğraştırmaz.</p>
+
+          <p>Web platformuyla savaşmak yerine onun üzerine kurulur.</p>
+
+          <p>Hata verdiğinde sorunun kaynağını bulmanıza yardımcı olur.</p>
+
+          <p>Gerektiğinde kademeli biçimde benimsenebilir.</p>
+
+          <p>Çıkmak istediğinizde bütün sisteminizi rehin almaz.</p>
+
+          <p>Ve belki en önemlisi, ekibinizin gerçek ürün problemlerine ayırdığı zamanı artırır.</p>
+
+          <p>Bir framework'ün görevi geliştiriciyi kendisiyle meşgul etmek değil, aradan çekilmektir.</p>
+
+          <h2>Daha iyi bir yazılım geleceği nasıl kurulur?</h2>
+
+          <p>Ekosistemdeki hype döngüsünü tek bir geliştirici durduramaz.</p>
+
+          <p>Framework'ler çıkmaya, karşılaştırma videoları yayımlanmaya ve yeni araçlar "oyunun kurallarını değiştiriyor" başlıklarıyla sunulmaya devam edecek.</p>
+
+          <p>Ancak ekipler kendi kültürlerini değiştirebilir.</p>
+
+          <p>Teknoloji kararlarını moda üzerinden değil, yazılı kriterler üzerinden alabilirler.</p>
+
+          <p>Yeni bağımlılıklar için inceleme süreci oluşturabilirler.</p>
+
+          <p>Mevcut sistemin neden yetersiz olduğunu kanıtlamadan büyük geçişlere başlamayabilirler.</p>
+
+          <p>Teknik tercihlerin yalnızca ilk geliştirme maliyetini değil, bakım, güvenlik ve eğitim maliyetini de hesaplayabilirler.</p>
+
+          <p>Geliştiricilere her yeni araç çıktığında yön değiştirmek yerine temelleri öğrenmeleri için zaman tanıyabilirler.</p>
+
+          <p>Lider konumundaysanız ekibinizde şu sorunun sorulmasını teşvik edin:</p>
+
+          <blockquote>"Bunu kullanabilir miyiz?" değil, "Bunu neden kullanmalıyız?"</blockquote>
+
+          <p>Lider değilseniz de fark yaratabilirsiniz. Teknoloji kararlarının gerekçelerini yazabilir, küçük deneyler yapabilir, sonuçları paylaşabilir ve ekibin aceleyle verdiği kararları verilerle sorgulayabilirsiniz.</p>
+
+          <p>Eleştirel düşünmek yeniliğe karşı olmak değildir.</p>
+
+          <p>Yeniliğe, reklam metninin değil mühendisliğin gözünden bakmaktır.</p>
+
+          <h2>Sonuç: JavaScript'in sorunu JavaScript olmayabilir</h2>
+
+          <p>JavaScript'in kusurları var.</p>
+
+          <p>Dil tarihsel yük taşıyor. Bazı davranışları şaşırtıcı. Ekosistemi kalabalık, bağımlılık ağı kırılgan ve araç değişim hızı yorucu.</p>
+
+          <p>Ama JavaScript'in en büyük sorunu, seçeneklerinin çokluğu değil. Her yeni seçeneği hemen benimsememiz gerektiği düşüncesi.</p>
+
+          <p>İyi bir yazılım mühendisi bütün framework'leri bilen kişi değildir.</p>
+
+          <p>Yeni bir araçla karşılaştığında onun neyi çözdüğünü anlayabilen, iddialarını sınayabilen ve kendi projesi için gerekli olup olmadığına karar verebilen kişidir.</p>
+
+          <p>Dil ve araçlar değişmeye devam edecek. React, Vue veya bugün kullandığımız diğer teknolojiler sonsuza dek aynı kalmayacak. Node.js bile Ekim 2026'dan itibaren yıllık ana sürüm ve her sürümün LTS olduğu yeni bir yayın düzenine geçiyor.</p>
+
+          <p>Bu değişimin içinde sağlam kalmanın yolu her şeyi öğrenmek değil.</p>
+
+          <p>Temelleri iyi anlamak.</p>
+
+          <p>Küçük deneyler yapmak.</p>
+
+          <p>Sonuçları ölçmek.</p>
+
+          <p>Bağımlılıkları sorgulamak.</p>
+
+          <p>AI'ın yazdığı kodu körü körüne kabul etmemek.</p>
+
+          <p>Ve araçları amaç hâline getirmemek.</p>
+
+          <p>Sonuçta kullanıcı hangi framework'ü kullandığınızı bilmez.</p>
+
+          <p>Sayfanın hızlı açılıp açılmadığını, ürünün çalışıp çalışmadığını ve ihtiyacını çözüp çözmediğini bilir.</p>
+
+          <p>İyi mühendislik de tam olarak burada başlar.</p>
+        </div>
+
+        <div class="callout article-footer-cta">
+          <p class="callout-title">Modern bir yazılım mühendisi olmaya hazır mısınız?</p>
+          <p>Coyotiv Yazılım Okulu'nda yalnızca günün popüler araçlarını kullanmayı değil, teknoloji seçimlerini sorgulamayı, yazılımın temel ilkelerini anlamayı ve değişen araçlara bağımlı kalmadan problem çözmeyi öğrenirsiniz. Çünkü iyi bir yazılım mühendisi, bir framework'ün talimatlarını izleyen kişi değildir. Yeni bir araç çıktığında paniğe kapılmadan şu soruyu sorabilen kişidir:</p>
+          <p><strong>Bu teknoloji gerçekten daha iyi mi, yoksa yalnızca daha mı yeni?</strong></p>
+          <div class="hero-ctas hero-ctas-center">
+            <a href="yazilim-okulu.html" class="btn btn-fuchsia">Coyotiv Yazılım Okulu'nu inceleyin →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-banner">
+    <img src="assets/coyotiv-logo.png" alt="Coyotiv" class="footer-wordmark-img">
+  </div>
+  <div class="container footer-bar">
+    <p>Copyright, COYOTIV, 2026. Tüm hakları saklıdır.</p>
+    <nav class="footer-nav">
+      <a href="index.html">Kurumsal Eğitimler</a>
+      <a href="yazilim-okulu.html">Yazılım Okulu</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </div>
+</footer>
+
+</body></html>
