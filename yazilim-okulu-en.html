@@ -48,6 +48,56 @@
 </head>
 <body>
 
+<input type="checkbox" id="apply-modal-toggle" class="modal-toggle">
+<div class="modal-overlay">
+  <label for="apply-modal-toggle" class="modal-backdrop" aria-hidden="true"></label>
+  <div class="modal-box">
+    <label for="apply-modal-toggle" class="modal-close" aria-label="Close">×</label>
+    <h3>Apply Form</h3>
+    <p>Welcome to the first step of your journey to become a Software Engineer! To get started, just complete the form below.</p>
+    <div class="contact-form-wrapper">
+      <p class="form-note">This form is currently a visual placeholder — submission isn't active yet. Please apply by emailing us in the meantime.</p>
+      <form class="contact-form">
+        <label for="apply-name">Name *</label>
+        <input type="text" id="apply-name" name="name" placeholder="e.g. John">
+
+        <label for="apply-surname">Surname *</label>
+        <input type="text" id="apply-surname" name="surname" placeholder="e.g. Doe">
+
+        <label for="apply-phone">Phone Number *</label>
+        <input type="tel" id="apply-phone" name="phone" placeholder="+49">
+
+        <label for="apply-email">Email *</label>
+        <input type="email" id="apply-email" name="email" placeholder="john@doe.com">
+
+        <label for="apply-source">How did you find out about Coyotiv? *</label>
+        <input type="text" id="apply-source" name="source" placeholder="e.g. Google, a friend, YouTube...">
+
+        <label for="apply-motivation">In just a few words, why do you want to become a Software Engineer? *</label>
+        <textarea id="apply-motivation" name="motivation" rows="3"></textarea>
+
+        <div class="form-checkbox-row">
+          <input type="checkbox" id="apply-newsletter" name="newsletter">
+          <div>
+            <label for="apply-newsletter">Newsletter</label>
+            <p class="form-checkbox-note">I would like to be kept up to date with new training programs / events / promotions / marketing. You may unsubscribe at any time using the link in our newsletter.</p>
+          </div>
+        </div>
+
+        <div class="form-checkbox-row">
+          <input type="checkbox" id="apply-terms" name="terms">
+          <div>
+            <label for="apply-terms">Terms and Conditions *</label>
+            <p class="form-checkbox-note">By submitting this form, I accept the <a href="#">Privacy Policy</a> and <a href="#">Terms and Conditions</a>. Here you can find our Privacy Policy and Terms and Conditions.</p>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">Apply</button>
+      </form>
+    </div>
+  </div>
+</div>
+
 <header class="site-header">
   <div class="container header-inner">
     <a href="index.html" class="logo"><img src="assets/coyotiv-logo.png" alt="Coyotiv" class="logo-img"></a>
@@ -93,7 +143,7 @@
           live, with an experienced instructor by your side every day.
         </p>
         <div class="hero-ctas">
-          <a href="https://0228426c.sibforms.com/serve/MUIFALmAoUguOh3XJfRukzZ36EKriWdxwqQYkz7l-DZGKN-IC_tABtOiLsNfWAgq5fMFtEsQd_9a3aiX0X91yYLmTOHospM9yhkQm0wOayNOgzb3IdUyf3QarKkXXkVAhB72iaHFZy1V-07VnC7oJUpesglzMQPbv4yR0nNDAtyOWC9HcTQf9k8r-NSJTn3NZtbR06D3R7l4EkA7" class="btn btn-primary">Apply to the Full-Time program →</a>
+          <label for="apply-modal-toggle" class="btn btn-primary">Apply to the Full-Time program →</label>
           <a href="mailto:contact@coyotiv.com" class="btn btn-ghost">Book a free 15-minute call</a>
         </div>
         <p class="hero-crosslink">Prefer to learn at your own pace? <a href="#other-programs">See our Self-Paced program →</a> · Looking for team training instead? <a href="en.html">Explore Coyotiv Corporate Training →</a></p>
@@ -298,7 +348,7 @@
       </div>
 
       <div class="hero-ctas hero-ctas-center yo-callout">
-        <a href="https://0228426c.sibforms.com/serve/MUIFALmAoUguOh3XJfRukzZ36EKriWdxwqQYkz7l-DZGKN-IC_tABtOiLsNfWAgq5fMFtEsQd_9a3aiX0X91yYLmTOHospM9yhkQm0wOayNOgzb3IdUyf3QarKkXXkVAhB72iaHFZy1V-07VnC7oJUpesglzMQPbv4yR0nNDAtyOWC9HcTQf9k8r-NSJTn3NZtbR06D3R7l4EkA7" class="btn btn-primary">Apply to the Full-Time program →</a>
+        <label for="apply-modal-toggle" class="btn btn-primary">Apply to the Full-Time program →</label>
         <a href="#curriculum" class="btn btn-ghost">See full curriculum &amp; details →</a>
       </div>
     </div>
