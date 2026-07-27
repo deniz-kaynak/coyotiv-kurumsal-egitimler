@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coyotiv | English Site Coming Soon</title>
+<title>Coyotiv | Enterprise AI &amp; Technology Training</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,20 +13,26 @@
 
 <header class="site-header">
   <div class="container header-inner">
-    <a href="index.html" class="logo"><img src="assets/coyotiv-logo.png" alt="Coyotiv" class="logo-img"></a>
+    <a href="#hero" class="logo"><img src="assets/coyotiv-logo.png" alt="Coyotiv" class="logo-img"></a>
     <nav class="main-nav">
       <ul>
-        <li><a href="index.html">Corporate Training</a></li>
-        <li><a href="yazilim-okulu.html">Software School</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#formats">Formats</a></li>
+        <li><a href="#case-studies">Case Studies</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="blog.html">Blog</a></li>
       </ul>
     </nav>
     <div class="header-right">
-      <a href="mailto:contact@coyotiv.com" class="btn btn-primary btn-nav">Contact us ↗</a>
+      <div class="header-ctas">
+        <a href="yazilim-okulu.html" class="btn btn-fuchsia btn-nav">Software School</a>
+        <a href="#contact" class="btn btn-primary btn-nav">Contact us ↗</a>
+      </div>
       <div class="lang-switch">
-        <a href="index.html">TR</a>
-        <span class="lang-sep">|</span>
         <span class="lang-current">EN</span>
+        <span class="lang-sep">|</span>
+        <a href="index.html">TR</a>
       </div>
     </div>
   </div>
@@ -34,19 +40,855 @@
 
 <main>
 
-  <section class="section">
-    <div class="container">
-      <div class="yo-narrow coming-soon">
-        <p class="eyebrow eyebrow-center">Coming soon</p>
-        <h1>Our English site is on its way</h1>
-        <p class="lead-paragraph">
-          We're working on bringing Coyotiv's corporate training and Software School pages to English.
-          In the meantime, you're welcome to browse our Turkish site — our team is always happy to help
-          in English by email.
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-col">
+        <p class="eyebrow">Enterprise AI training partner</p>
+        <h1>Turn AI adoption into a lasting skill your whole organization owns</h1>
+        <p class="hero-lead">
+          From executives to engineering teams, we design AI and technology training built around your
+          company — helping people use AI tools safely, effectively, and in ways that actually fit how
+          your business works.
         </p>
-        <div class="hero-ctas hero-ctas-center">
-          <a href="index.html" class="btn btn-primary">Browse the Turkish site →</a>
-          <a href="mailto:contact@coyotiv.com" class="btn btn-ghost">Email us</a>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Book a free discovery call →</a>
+          <a href="#programs" class="btn btn-ghost">Explore our programs</a>
+        </div>
+        <p class="hero-crosslink">Looking for individual software training instead? <a href="yazilim-okulu.html">Explore Coyotiv Software School →</a></p>
+      </div>
+      <div class="hero-col hero-visual" aria-hidden="true">
+        <img src="assets/hero-illustration.png" alt="" class="visual-illustration">
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOL STRIP -->
+  <div class="tool-strip">
+    <div class="container">
+      <p><span class="tool-strip-label">Vendor-agnostic — we teach across</span>ChatGPT · Claude · Gemini · Copilot · Cursor · Open-source models</p>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- PROCESS -->
+  <section id="process" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">How we work</p>
+      <h2>How we prepare your organization for the AI era</h2>
+
+      <div class="row-list">
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">01</span></div>
+          <div class="row-body">
+            <h3>Assessment</h3>
+            <p>We assess how ready your organization is for AI — current skills, tools in use, data and security needs, the obstacles your teams are running into, and where AI can create the most value.</p>
+            <a href="#contact" class="row-cta">Run an AI readiness assessment →</a>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">02</span></div>
+          <div class="row-body">
+            <h3>Training</h3>
+            <p>We teach your teams not just how to use AI tools, but how the technology works, what problems it can solve, and how it fits into real business processes. Programs are led by specialists across roles, building a shared language and capability across the organization.</p>
+            <a href="#programs" class="row-cta">Explore corporate programs →</a>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">03</span></div>
+          <div class="row-body">
+            <h3>Strategy &amp; Roadmap</h3>
+            <p>We build an actionable roadmap that ties your AI investments to concrete business goals — identifying priority use cases, sequencing projects by value and feasibility, and setting clear owners and a realistic timeline for each stage.</p>
+            <a href="#contact" class="row-cta">Build a strategy &amp; roadmap →</a>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">04</span></div>
+          <div class="row-body">
+            <h3>Implementation &amp; Transformation</h3>
+            <p>We don't leave plans in slide decks. Working alongside Coyotiv's software and AI teams, we build pilot projects, stand up data infrastructure, integrate AI into your existing systems, and get your people using these tools in daily work — from idea to a working product, if that's what you need.</p>
+            <a href="#contact" class="row-cta">Bring your AI project to life →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout">
+        <p class="callout-title">Not sure where to start?</p>
+        <p>Set up a 30-minute intro call with a senior consultant.</p>
+        <a href="#contact" class="btn btn-primary">Book a discovery call →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROBLEM / STATS -->
+  <section id="why-it-matters" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">The problem</p>
+      <h2>The real challenge: turning AI tools into enterprise value</h2>
+      <p class="lead-paragraph">The data across markets tells a consistent story: AI is everywhere, but converting it into measurable business value is still rare.</p>
+
+      <div class="problem-grid">
+
+        <div class="problem-card">
+          <h3>Adoption is accelerating — but stays wildly uneven by company size</h3>
+          <div class="problem-body">
+            <p>Across OECD countries, the share of firms using AI reached 20.2% in 2025, up from 14.2% the year before and just 8.7% two years earlier. But the gap by size is stark: roughly 52% of large firms (250+ employees) use AI, compared with about 17% of small firms.</p>
+            <p>Even in the most advanced economies, adoption among large firms tops out around 60–70% — meaning a large share of even the biggest companies have not yet captured this opportunity in any systematic way.</p>
+            <p class="stat-source">Source: OECD, 2025</p>
+          </div>
+        </div>
+
+        <div class="problem-card">
+          <h3>The biggest barrier isn't technology — it's expertise</h3>
+          <div class="problem-body">
+            <p>For companies that haven't adopted AI, the top obstacle is a lack of in-house expertise — followed by not knowing how to use it, low awareness of the technology, and security concerns.</p>
+            <p>In other words, what's slowing companies down isn't missing tools; it's missing knowledge, capability, and a workable roadmap.</p>
+          </div>
+        </div>
+
+        <div class="problem-card">
+          <h3>Usage is common; scaling to real value is rare</h3>
+          <div class="problem-body">
+            <p>88% of organizations now report regular AI use in at least one business function, up from 78% a year earlier. Yet only around a third have moved past piloting to scale AI across the enterprise — and only about 6% qualify as "high performers" capturing more than 5% of EBIT from AI.</p>
+            <p>Using AI and generating value from AI are not the same thing.</p>
+            <p class="stat-source">Source: McKinsey, State of AI, 2025</p>
+          </div>
+        </div>
+
+        <div class="problem-card">
+          <h3>The companies capturing the most value are redesigning how work gets done</h3>
+          <div class="problem-body">
+            <p>One trait consistently separates the highest-value AI adopters from the rest: instead of just speeding up existing workflows, they rebuild them. High performers are roughly three times more likely to fundamentally redesign their processes.</p>
+            <p>AI transformation isn't a new tool bolted onto old work. The real value shows up when you redesign how the work gets done.</p>
+            <p class="stat-source">Source: McKinsey, State of AI, 2025</p>
+          </div>
+        </div>
+
+        <div class="problem-card">
+          <h3>Strategy comes before tools</h3>
+          <div class="problem-body">
+            <p>In a BCG study of roughly 12,000 employees, managers and leaders published in 2026, 74% of frontline employees said they use AI regularly, and 42% of regular users reported saving at least eight hours a week. Yet most organizations still haven't worked out how to turn that saved time into measurable business value.</p>
+            <p>The study's central finding: a clear AI strategy matters even more for long-term success than access to tools. Without clear goals, redesigned processes and a real corporate strategy, time saved doesn't translate into business results.</p>
+            <p class="stat-source">Source: BCG, 2026</p>
+          </div>
+        </div>
+
+        <div class="problem-card">
+          <h3>The training gap persists</h3>
+          <div class="problem-body">
+            <p>Only 36% of employees say they're satisfied with the AI training they've received, according to BCG's "AI at Work" research. When employees can't access the right tools, more than half say they'll turn to unsanctioned alternatives instead.</p>
+            <p>Without shared rules for what information can be shared with which tool, that shadow usage quietly increases security and data risk.</p>
+            <p class="stat-source">Source: BCG, "AI at Work," 2025</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="callout">
+        <p class="callout-title">Employer priorities are shifting fast</p>
+        <p>In a World Economic Forum survey of over 1,000 employers across 55 economies — representing more than 14 million workers — 86% expect AI and information-processing technologies to transform their business by 2030, and AI and big-data skills top the list of fastest-growing competencies. Separately, PwC research finds that revenue growth per employee in the most AI-exposed sectors runs roughly three times higher than in the least exposed ones, with productivity gains accelerating sharply since generative AI went mainstream — driving skill requirements in the most exposed roles to change about 66% faster than elsewhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROGRAMS -->
+  <section id="programs" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">Sample programs</p>
+      <h2>Training programs designed around your organization</h2>
+      <div class="card-grid card-grid-3">
+        <div class="program-card">
+          <h3>AI for executives</h3>
+          <p>AI strategy, investment priorities, risk, organizational transformation, and decision-making.</p>
+        </div>
+        <div class="program-card">
+          <h3>AI literacy for every employee</h3>
+          <p>The fundamentals of generative AI, safe usage, effective prompting, and everyday work scenarios.</p>
+        </div>
+        <div class="program-card">
+          <h3>Department-specific AI training</h3>
+          <p>Tailored programs for marketing, HR, sales, finance, legal, operations, and customer service.</p>
+        </div>
+        <div class="program-card">
+          <h3>AI for software teams</h3>
+          <p>Cursor, GitHub Copilot, Claude Code, and AI-assisted software development workflows.</p>
+        </div>
+        <div class="program-card">
+          <h3>AI product development</h3>
+          <p>Hands-on product building — from idea to prototype, agent systems to RAG architectures.</p>
+        </div>
+        <div class="program-card">
+          <h3>AI governance &amp; safe usage</h3>
+          <p>Data security, internal policy, responsible AI use, and human oversight.</p>
+        </div>
+      </div>
+
+      <div class="callout">
+        <p class="callout-title">Not sure which program is right for you?</p>
+        <p>Set up a 30-minute intro call with a senior consultant to design training that matches your needs.</p>
+        <a href="#contact" class="btn btn-primary">Book a discovery call →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FORMATS -->
+  <section id="formats" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">Format</p>
+      <h2>Let's find the right format together</h2>
+      <div class="card-grid card-grid-5">
+        <div class="format-card">
+          <h3>Executive briefing</h3>
+          <p>A 60–90 minute session for senior leadership.</p>
+        </div>
+        <div class="format-card">
+          <h3>Half or full-day workshop</h3>
+          <p>Hands-on work focused on a specific team and use case.</p>
+        </div>
+        <div class="format-card">
+          <h3>Training program</h3>
+          <p>A multi-week development program with assignments and follow-up.</p>
+        </div>
+        <div class="format-card">
+          <h3>Corporate academy</h3>
+          <p>A comprehensive learning path across departments and seniority levels.</p>
+        </div>
+        <div class="format-card">
+          <h3>Consulting &amp; implementation</h3>
+          <p>Designing and building pilot AI projects after training.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- WHY US -->
+  <section id="why-us" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">What sets us apart</p>
+      <h2>Why Coyotiv</h2>
+      <div class="card-grid card-grid-5">
+        <div class="reason-card">
+          <h3>Learn from people building the technology</h3>
+          <p>Programs are taught by specialists who build real software products, AI systems, and engineering teams — not full-time trainers reciting slides.</p>
+        </div>
+        <div class="reason-card">
+          <h3>Built for your company, not a template</h3>
+          <p>Content is adapted to your industry, teams, tools, and use cases rather than a one-size-fits-all deck.</p>
+        </div>
+        <div class="reason-card">
+          <h3>Both a business and a technical lens</h3>
+          <p>Strategy for leadership, hands-on practice for employees, technical depth for engineers.</p>
+        </div>
+        <div class="reason-card">
+          <h3>You keep the usable output</h3>
+          <p>Every program ends with playbooks, workflows, and pilot-project recommendations your team can put to work right away.</p>
+        </div>
+        <div class="reason-card">
+          <h3>Tool-agnostic by design</h3>
+          <p>We help you choose between ChatGPT, Claude, Gemini, Copilot, or open-source models based on what your business actually needs.</p>
+        </div>
+        <div class="reason-card">
+          <h3>Support doesn't end at the last session</h3>
+          <p>Follow-up sessions, mentoring, and applied support help teams bring what they learned into real daily workflows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FEATURED PROGRAM -->
+  <section id="featured-program" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">Sample training track</p>
+      <h2>Applied AI Program for Software Teams</h2>
+      <p class="lead-paragraph">
+        A four-week, hands-on program that helps engineering teams use generative AI across analysis,
+        development, testing, documentation, and delivery — not just for writing code.
+      </p>
+
+      <div class="row-list row-list-tight">
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">Week 1</span></div>
+          <div class="row-body">
+            <h4>Foundations of AI-assisted development</h4>
+            <p>How generative AI works, where it's reliable, and where it needs human oversight. Teams learn to use ChatGPT, Claude, GitHub Copilot, and Cursor safely and effectively.</p>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">Week 2</span></div>
+          <div class="row-body">
+            <h4>Code generation, refactoring &amp; debugging</h4>
+            <p>Hands-on practice on real codebases: building features, understanding existing code, refactoring, debugging, technical-debt analysis, and code review.</p>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">Week 3</span></div>
+          <div class="row-body">
+            <h4>Testing, documentation &amp; automation</h4>
+            <p>Using AI to generate test scenarios, unit and integration tests, technical documentation, and automate repetitive tasks — plus reusable prompts, rules, and templates.</p>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">Week 4</span></div>
+          <div class="row-body">
+            <h4>Your company's AI development workflow</h4>
+            <p>Adapting everything learned to your existing development process — identifying priority use cases, defining safe-use boundaries, and shipping a working AI-assisted workflow on a real project.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="outcomes-box">
+        <h4>What you'll walk away with:</h4>
+        <ul>
+          <li>AI use cases specific to your engineering team</li>
+          <li>A shared library of prompts and instructions</li>
+          <li>Code security and data-privacy guidelines</li>
+          <li>An AI-assisted development playbook</li>
+          <li>Team-wide tool and usage standards</li>
+          <li>At least one working automation, prototype, or workflow</li>
+          <li>A short leadership readout with recommended next steps</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CASE STUDIES -->
+  <section id="case-studies" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">Solutions</p>
+      <h2>Case Studies</h2>
+
+      <article class="case-study">
+        <div class="case-head">
+          <h3>Intelligent Company Search</h3>
+        </div>
+        <p class="case-meta"><strong>Tag:</strong> Company discovery &amp; market intelligence<br><strong>Sector:</strong> Used across venture capital, investment, market research, B2B sales, and strategic partnerships.</p>
+
+        <input type="checkbox" id="case-toggle-1" class="card-toggle">
+        <div class="card-content">
+          <h4>The problem</h4>
+          <p>Existing company databases handed users millions of records and complex filters instead of answers. An investor, salesperson, or business-development lead had to sift through results manually — cross-checking company sites, LinkedIn profiles, funding history, and news one by one.</p>
+          <p>The process turned into research projects lasting days, produced static reports that went stale almost immediately, reduced real intent down to rigid filters (excluding good-fit companies in the process), and returned scores no one could defend or explain. What the client needed wasn't more records — it was reliable, explainable company recommendations they could justify in a decision meeting.</p>
+
+          <h4>What we built</h4>
+          <p>Coyotiv built an agentic company-search platform where users ask questions in plain language and get a reasoned result for every company. Instead of translating a query into rigid, brittle filters, the system analyzes it semantically — first measuring the real distribution of industries, regions, and company sizes in the dataset so every query is calibrated against the actual data. For each company, it produces not just a score but a summary, strengths, risks, and an explainable verdict, streaming results as they're ready and treating follow-up questions as a continuation of the same research thread.</p>
+          <p>Prompts were managed through Raison and tested like software code. Langfuse tracked agent behavior and production outputs.</p>
+
+          <h4>Who it's for</h4>
+          <ul>
+            <li>Venture capital and investment teams</li>
+            <li>Deal-sourcing and market-research teams</li>
+            <li>B2B sales and business-development professionals</li>
+            <li>Strategic partnership teams</li>
+            <li>Companies researching suppliers or partners</li>
+            <li>Leaders evaluating new market opportunities</li>
+          </ul>
+
+          <h4>The outcome</h4>
+          <p>The platform turned company discovery from a filter-driven data scan into an answer-first, conversational research process. Users built defensible shortlists in minutes instead of days, got explainable assessments they could bring straight into a decision meeting instead of opaque scores, and rolled out new use cases on the same infrastructure without building a separate product.</p>
+
+          <p class="case-tech"><strong>Technologies used:</strong> Embedding-based semantic search, MongoDB Atlas Vector Search, OpenAI SDK, Vercel AI SDK, Raison Prompt Management, Langfuse Agent Tracing.</p>
+        </div>
+        <label for="case-toggle-1" class="card-toggle-label">
+          <span class="label-more">Read more ↓</span>
+          <span class="label-less">Show less ↑</span>
+        </label>
+      </article>
+
+      <article class="case-study">
+        <div class="case-head">
+          <h3>Network Intelligence</h3>
+        </div>
+        <p class="case-meta"><strong>Tag:</strong> Population &amp; talent intelligence<br><strong>Sector:</strong> Built for public institutions, economic-development agencies, workforce-planning teams, and organizations analyzing talent migration.</p>
+
+        <input type="checkbox" id="case-toggle-2" class="card-toggle">
+        <div class="card-content">
+          <h4>The problem</h4>
+          <p>Professional profile data existed in huge volume, but wasn't usable for strategic decisions. Ministers, program managers, and senior decision-makers couldn't get a direct answer when they wanted to know which skills were concentrated in a city, who was arriving, who was leaving, where graduates were heading, or which institutions were feeding which sectors.</p>
+          <p>Existing systems showed individual profiles one at a time, couldn't classify free-text job titles, skills, and sectors into anything comparable, and made every strategic question dependent on a data team's backlog. The client didn't need more profile data — it needed a current, auditable map of the talent ecosystem that decision-makers could query directly.</p>
+
+          <h4>What we built</h4>
+          <p>Coyotiv built a conversational population-intelligence platform that unifies scattered professional profile data under a shared classification system, letting non-technical users query it in plain language. The system maps free-text titles, skills, and sector tags from hundreds of thousands of profiles onto a common taxonomy, accepts questions by text or voice, and answers with live, auto-generated charts. It draws on a knowledge base of roughly 250 pre-defined answers, curated aggregations, and a live data cohort — and when no ready answer exists, it generates new analysis on the fly within a constrained, safe query environment.</p>
+          <p>Voice interaction was powered by the OpenAI Realtime API and Google Gemini Live.</p>
+
+          <h4>Who it's for</h4>
+          <ul>
+            <li>Ministries and public institutions</li>
+            <li>Economic-development agencies</li>
+            <li>Municipal and city governments</li>
+            <li>Workforce and talent-planning teams</li>
+            <li>Organizations studying migration and talent mobility</li>
+            <li>Universities and education-policy leaders</li>
+            <li>Program owners and public administrators</li>
+            <li>Senior decision-makers</li>
+            <li>Policy and strategy teams without a data analyst</li>
+          </ul>
+
+          <h4>The outcome</h4>
+          <p>The platform turned scattered individual professional records into a unified, plain-language-queryable map of the talent ecosystem. Users asked strategic questions directly instead of waiting in a data team's queue, generated charts and tables in seconds by text or voice, and moved from static annual reports to a continuously updated live analysis environment.</p>
+
+          <p class="case-tech"><strong>Technologies used:</strong> Taxonomy-constrained classification, OpenAI Agents SDK, OpenAI Realtime API, Google Gemini Live.</p>
+        </div>
+        <label for="case-toggle-2" class="card-toggle-label">
+          <span class="label-more">Read more ↓</span>
+          <span class="label-less">Show less ↑</span>
+        </label>
+      </article>
+
+      <article class="case-study">
+        <div class="case-head">
+          <h3>Intelligent Talent Search</h3>
+        </div>
+        <p class="case-meta"><strong>Tag:</strong> Talent search &amp; professional networking<br><strong>Sector:</strong> Used across recruiting, talent discovery, mentorship, community matching, and professional networking.</p>
+
+        <input type="checkbox" id="case-toggle-3" class="card-toggle">
+        <div class="card-content">
+          <h4>The problem</h4>
+          <p>Traditional recruiting worked largely as a passive process. Employers posted a role, waited for applications, and often never reached the best-fit candidates at all — especially professionals who weren't actively job-hunting but would have been a strong match, and who fell outside keyword-based search entirely.</p>
+          <p>Existing systems forced complex hiring needs down into a handful of keywords, missed strong candidates who described the same skills in different words, and turned the first stage of hiring into weeks of manual screening. The client didn't just need a better candidate search engine — it needed a system that understood the hiring need, found the candidates, and made a first-pass assessment before any human review began.</p>
+
+          <h4>What we built</h4>
+          <p>Coyotiv built a hybrid talent-search system that analyzes a short, plain-language search request — or a full job posting — to surface the strongest matches across the network. The system splits the request into semantic and non-semantic components, applying hard requirements like required experience, location, or seniority through filters and keyword search, while evaluating the meaning, context, and intent behind the role through semantic vector search. The two result sets are merged into a single ranking using Reciprocal Rank Fusion.</p>
+          <p>The search process was run by a multi-agent structure designed to mirror how an expert recruiter evaluates candidates. Agent behavior was managed through Raison, with BRAID prompt compilation delivering faster, higher-quality, lower-cost results from smaller models.</p>
+
+          <h4>Who it's for</h4>
+          <ul>
+            <li>HR and talent-acquisition teams</li>
+            <li>In-house and independent recruiters</li>
+            <li>Companies hiring for leadership or technical roles</li>
+            <li>Mentorship-program managers</li>
+            <li>Professional community and membership platforms</li>
+            <li>Workforce-development organizations</li>
+            <li>Professional matching and networking teams</li>
+            <li>HR-tech companies screening candidates at scale</li>
+          </ul>
+
+          <h4>The outcome</h4>
+          <p>The platform turned talent discovery from a passive post-and-wait process into an active search that understands the hiring need and reaches the right people directly. Users generated a shortlist in minutes by feeding in a full job posting, surfaced strong matches that classic keyword search would have missed, and meaningfully cut manual first-round screening time. System quality was continuously measured through deterministic tests and LLM-as-judge evaluations.</p>
+
+          <p class="case-tech"><strong>Technologies used:</strong> Multi-agent orchestration, Raison Prompt Management, BRAID prompt compilation, multi-embedding infrastructure across OpenAI/Gemini/Voyage, hybrid vector and keyword retrieval, Reciprocal Rank Fusion, MongoDB Atlas Vector Search, Langfuse Agent Tracing, deterministic and LLM-as-judge evals, OpenAI SDK, Vercel AI SDK, Google Vertex AI.</p>
+        </div>
+        <label for="case-toggle-3" class="card-toggle-label">
+          <span class="label-more">Read more ↓</span>
+          <span class="label-less">Show less ↑</span>
+        </label>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- TRAINERS -->
+  <section id="trainers" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">Our team</p>
+      <h2>Trainers</h2>
+      <div class="trainer-grid">
+
+        <div class="trainer-card">
+          <h3>Armağan Amcalar</h3>
+          <input type="checkbox" id="trainer-toggle-1" class="card-toggle">
+          <div class="card-content">
+            <p>Founder and CEO of Coyotiv, and CTO of OpenServ Labs, Armağan is a technology leader, software architect, and trainer with more than 20 years of software development experience. Over his career he has helped hundreds of engineers grow through team leadership, engineering management, and CTO roles. He works on AI agents, software architecture, developer tools, and efficient AI systems, and is one of the original authors of BRAID, a structured AI-reasoning approach.</p>
+            <h4>Programs he can teach</h4>
+            <ul>
+              <li>AI Strategy for Executives</li>
+              <li>AI-Assisted Development for Software Teams</li>
+              <li>Designing AI Agent Systems</li>
+              <li>Product Development with Generative AI</li>
+              <li>From Prompt Engineering to Agent Engineering</li>
+              <li>Software Architecture &amp; Technical Leadership</li>
+              <li>Speed, Quality &amp; Cost Optimization in AI Systems</li>
+              <li>AI Transformation for CTOs &amp; Technology Leaders</li>
+            </ul>
+          </div>
+          <label for="trainer-toggle-1" class="card-toggle-label">
+            <span class="label-more">Read more ↓</span>
+            <span class="label-less">Show less ↑</span>
+          </label>
+        </div>
+
+        <div class="trainer-card">
+          <h3>Numan Selman Duman</h3>
+          <input type="checkbox" id="trainer-toggle-2" class="card-toggle">
+          <div class="card-content">
+            <p>Numan is a developer and trainer working in software development and software-engineering education. He builds production systems using JavaScript, MongoDB, event-driven architectures, and end-to-end web applications, with a GitHub portfolio spanning e-commerce, booking systems, MongoDB aggregation pipelines, and Vue.js-based projects.</p>
+            <h4>Programs he can teach</h4>
+            <ul>
+              <li>Modern Software Development with JavaScript</li>
+              <li>Frontend Development with Vue.js</li>
+              <li>Backend Development with Node.js &amp; Express</li>
+              <li>MongoDB &amp; Data Modeling</li>
+              <li>Full-Stack Web Application Development</li>
+              <li>AI Tools for Developers</li>
+              <li>AI-Assisted Coding, Testing &amp; Debugging</li>
+              <li>Problem-Solving &amp; Project Development for Junior Engineers</li>
+            </ul>
+          </div>
+          <label for="trainer-toggle-2" class="card-toggle-label">
+            <span class="label-more">Read more ↓</span>
+            <span class="label-less">Show less ↑</span>
+          </label>
+        </div>
+
+        <div class="trainer-card">
+          <h3>Mehmet Perk</h3>
+          <input type="checkbox" id="trainer-toggle-3" class="card-toggle">
+          <div class="card-content">
+            <p>Mehmet is a product leader, innovation consultant, and three-time technology founder with more than 15 years of experience. As an innovation consultant at Siemens, he works on digital transformation and innovation strategy for large organizations, having previously served as a product manager in Siemens' mobility division. All three of his own companies became profitable, with two ending in a successful exit. He teaches on product strategy, user experience, innovation, and new business models.</p>
+            <h4>Programs he can teach</h4>
+            <ul>
+              <li>Product Management in the Age of AI</li>
+              <li>AI Product Strategy &amp; Roadmapping</li>
+              <li>From Idea to Product: New Product Development</li>
+              <li>Product Discovery &amp; User Research</li>
+              <li>User Experience for Product Managers</li>
+              <li>Innovation Management in Large Organizations</li>
+              <li>Identifying AI Use Cases</li>
+              <li>Turning Emerging Technology into a Business Model</li>
+              <li>Strategic Thinking for Product Teams</li>
+            </ul>
+          </div>
+          <label for="trainer-toggle-3" class="card-toggle-label">
+            <span class="label-more">Read more ↓</span>
+            <span class="label-less">Show less ↑</span>
+          </label>
+        </div>
+
+        <div class="trainer-card">
+          <h3>Gülnur Bayhan Deniz</h3>
+          <input type="checkbox" id="trainer-toggle-4" class="card-toggle">
+          <div class="card-content">
+            <p>Gülnur is Coyotiv's Engineering and Product Director and an experienced technology and product leader. Across her career she has worked as a software developer, QA engineer, solutions architect, business analyst, project manager, and Agile coach before moving into product development at startups. Today she leads cross-disciplinary, self-organizing engineering teams and focuses on integrating AI into engineering and product processes.</p>
+            <h4>Programs she can teach</h4>
+            <ul>
+              <li>AI Literacy for Executives</li>
+              <li>AI Productivity for Teams</li>
+              <li>Engineering Management in the AI Era</li>
+              <li>Product Thinking for Technical Teams</li>
+              <li>Product Discovery &amp; Experiment Design</li>
+              <li>Software Development Processes, Idea to Delivery</li>
+              <li>Software Quality &amp; Process Improvement</li>
+              <li>Leading Cross-Disciplinary Teams</li>
+            </ul>
+          </div>
+          <label for="trainer-toggle-4" class="card-toggle-label">
+            <span class="label-more">Read more ↓</span>
+            <span class="label-less">Show less ↑</span>
+          </label>
+        </div>
+
+        <div class="trainer-card">
+          <h3>Deniz Kaynak</h3>
+          <input type="checkbox" id="trainer-toggle-5" class="card-toggle">
+          <div class="card-content">
+            <p>Deniz is a journalist, editor, and communications strategist. She's Editor-in-Chief at Aposto and leads marketing at Coyotiv, producing work on technology, AI, media, culture, and business, and specializing in turning complex subjects into clear, credible narratives. Her focus areas include content production, editorial decision-making, brand voice, and the role of human creativity in the AI era.</p>
+            <h4>Programs she can teach</h4>
+            <ul>
+              <li>AI for Communications Teams</li>
+              <li>AI-Assisted Research &amp; Content Production</li>
+              <li>Editorial Strategy in the AI Era</li>
+              <li>An AI Playbook for Brands</li>
+              <li>Protecting Brand Voice While Using AI</li>
+              <li>Research, Verification &amp; Sourcing</li>
+              <li>Ethics &amp; Trust in AI-Generated Content</li>
+              <li>Corporate Storytelling</li>
+              <li>Thought Leadership &amp; Expert Content</li>
+              <li>Prompt &amp; Workflow Design for Marketing Teams</li>
+            </ul>
+          </div>
+          <label for="trainer-toggle-5" class="card-toggle-label">
+            <span class="label-more">Read more ↓</span>
+            <span class="label-less">Show less ↑</span>
+          </label>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SECURITY -->
+  <section id="security" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">Data &amp; security</p>
+      <h2>Built around your security policy, not the other way around</h2>
+      <p class="lead-paragraph">Corporate data deserves corporate-grade caution. Before any session begins, we agree exactly what's in scope.</p>
+
+      <div class="row-list row-list-tight">
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">01</span></div>
+          <div class="row-body">
+            <h3>Rules set before day one</h3>
+            <p>We agree which tools will be used, what data can be shared, and where the boundaries sit — before any training begins.</p>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">02</span></div>
+          <div class="row-body">
+            <h3>No sensitive data on open systems</h3>
+            <p>Sensitive company data is never shared with public or unsecured AI tools during a session.</p>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">03</span></div>
+          <div class="row-body">
+            <h3>Vendor-agnostic by default</h3>
+            <p>We match tools to your existing security policy — ChatGPT, Claude, Gemini, Copilot, or a private/self-hosted model — rather than pushing one vendor.</p>
+          </div>
+        </div>
+        <div class="row-item">
+          <div class="row-label"><span class="row-index">04</span></div>
+          <div class="row-body">
+            <h3>Human oversight, always</h3>
+            <p>Every program treats AI output as something to be reviewed, not trusted blindly — governance and human-in-the-loop practices are built into the curriculum itself.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout">
+        <p class="callout-title">Working with regulated or public-sector organizations?</p>
+        <p>We've delivered programs for public institutions and organizations handling sensitive population and workforce data (see our Network Intelligence case study). We're happy to work within your existing procurement, security review, and data-governance processes — just let us know what's required and we'll adapt.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- COMPARISON TABLE -->
+  <section id="comparison" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">How it compares</p>
+      <h2>Where Coyotiv fits, compared to the usual alternatives</h2>
+
+      <div class="compare-table-wrapper">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Generic e-learning</th>
+              <th>One-off consultant</th>
+              <th>Coyotiv</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tailored to your company &amp; tools</td>
+              <td>Rarely</td>
+              <td>Often</td>
+              <td class="compare-highlight">Always</td>
+            </tr>
+            <tr>
+              <td>Hands-on with your real workflows</td>
+              <td>Rarely</td>
+              <td>Sometimes</td>
+              <td class="compare-highlight">Yes</td>
+            </tr>
+            <tr>
+              <td>Both business &amp; technical depth</td>
+              <td>Rarely</td>
+              <td>Depends</td>
+              <td class="compare-highlight">Yes</td>
+            </tr>
+            <tr>
+              <td>Support after the sessions end</td>
+              <td>No</td>
+              <td>Rarely</td>
+              <td class="compare-highlight">Yes</td>
+            </tr>
+            <tr>
+              <td>Vendor-agnostic tool guidance</td>
+              <td>No</td>
+              <td>Depends</td>
+              <td class="compare-highlight">Yes</td>
+            </tr>
+            <tr>
+              <td>Usable playbooks &amp; templates you keep</td>
+              <td>Rarely</td>
+              <td>Sometimes</td>
+              <td class="compare-highlight">Every program</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">Good to know</p>
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-1" class="card-toggle">
+          <label for="faq-toggle-1" class="faq-question">
+            <h3>Is this suitable for non-technical teams?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>Absolutely. We shape every program around participants' technical level. Our strong track record with technical teams also gives us an edge when your audience includes engineers.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-2" class="card-toggle">
+          <label for="faq-toggle-2" class="faq-question">
+            <h3>Is the content customized for our company?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>Yes. Instead of running the same generic deck for everyone, we adapt the content to your industry, teams, tools, and needs.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-3" class="card-toggle">
+          <label for="faq-toggle-3" class="faq-question">
+            <h3>Can training be delivered in person?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>Yes. We work in person, online, or hybrid — we'll figure out together which format works best for your team.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-4" class="card-toggle">
+          <label for="faq-toggle-4" class="faq-question">
+            <h3>What group sizes do you work with?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>Anything from small focused teams to company-wide cohorts. We adjust the method and format to match group size.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-5" class="card-toggle">
+          <label for="faq-toggle-5" class="faq-question">
+            <h3>Do you train in languages other than English?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>Yes — we deliver programs in English or Turkish, and can accommodate other languages on request.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-6" class="card-toggle">
+          <label for="faq-toggle-6" class="faq-question">
+            <h3>How do you protect our company's data?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>We take this seriously. Before training begins, we agree together which tools will be used, what data can be shared, and where the boundaries sit. We never share sensitive company data with open systems.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-7" class="card-toggle">
+          <label for="faq-toggle-7" class="faq-question">
+            <h3>Do you offer support after training ends?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>Yes — it's one of the areas where we're strongest. Follow-up sessions, mentoring, and applied support help teams carry what they learned into real day-to-day workflows.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-8" class="card-toggle">
+          <label for="faq-toggle-8" class="faq-question">
+            <h3>Do we need a ChatGPT, Copilot, or Claude license?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>Not always. Some programs can run without a license at all. Where one is needed, we help you choose the option that best fits the tools and security policies your company already uses.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-9" class="card-toggle">
+          <label for="faq-toggle-9" class="faq-question">
+            <h3>Do participants receive a certificate?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>Yes. Participants who complete a program receive a certificate of participation or completion.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-10" class="card-toggle">
+          <label for="faq-toggle-10" class="faq-question">
+            <h3>How do you measure a program's impact?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>We run short assessments at the start and end of the program, and track hands-on assignments and team feedback throughout. Where useful, we also define more concrete targets, such as time saved, adoption rate, or specific business outputs.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <input type="checkbox" id="faq-toggle-11" class="card-toggle">
+          <label for="faq-toggle-11" class="faq-question">
+            <h3>Is a single day of training enough?</h3>
+            <span class="faq-toggle-icon">+</span>
+          </label>
+          <div class="faq-answer">
+            <p>It depends on what you need. A single day can be enough to build awareness and give a team a solid starting point. But if you're aiming for lasting change and real integration into daily work, a hands-on program spread over several weeks is far more effective.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-center">Get in touch</p>
+      <h2>Let's design the right AI training for your team</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>In a 30-minute call, we'll:</h3>
+          <ul>
+            <li>Assess your organization's current level</li>
+            <li>Identify which teams to start with</li>
+            <li>Recommend the training format that fits you best</li>
+            <li>Sketch an estimated scope and timeline</li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <p class="form-note">This form is currently a visual placeholder — submission isn't active yet. Please reach us by email in the meantime.</p>
+          <form class="contact-form">
+            <label for="fullname">Full name *</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Full name">
+
+            <label for="company">Company *</label>
+            <input type="text" id="company" name="company" placeholder="Company name">
+
+            <label for="email">Work email *</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com">
+
+            <label for="topic">Team or topic you're interested in</label>
+            <input type="text" id="topic" name="topic" placeholder="e.g. Engineering team, leadership, marketing...">
+
+            <label for="participants">Approximate number of participants</label>
+            <input type="text" id="participants" name="participants" placeholder="e.g. 10-20 people">
+
+            <button type="submit" class="btn btn-primary btn-full">Schedule a free discovery call →</button>
+          </form>
         </div>
       </div>
     </div>
@@ -61,9 +903,14 @@
   <div class="container footer-bar">
     <p>Copyright, COYOTIV, 2026. All rights reserved.</p>
     <nav class="footer-nav">
-      <a href="index.html">Kurumsal Eğitimler</a>
-      <a href="yazilim-okulu.html">Yazılım Okulu</a>
+      <a href="#process">Process</a>
+      <a href="#programs">Programs</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#faq">FAQ</a>
+      <a href="yazilim-okulu.html">Software School</a>
       <a href="blog.html">Blog</a>
+      <a href="#contact">Contact</a>
     </nav>
   </div>
 </footer>
