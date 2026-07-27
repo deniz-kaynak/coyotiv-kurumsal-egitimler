@@ -170,6 +170,17 @@ section {
   color: var(--color-fuchsia-hover);
 }
 
+.btn-fuchsia {
+  background: var(--color-fuchsia);
+  color: #ffffff;
+}
+
+.btn-fuchsia:hover {
+  background: var(--color-fuchsia-hover);
+  box-shadow: 0 4px 14px rgba(213, 34, 131, 0.35);
+  transform: translateY(-1px);
+}
+
 .btn-nav {
   padding: 9px 18px;
   font-size: 0.85rem;
@@ -199,6 +210,12 @@ section {
   gap: 24px;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.header-ctas {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .logo {
@@ -1140,6 +1157,13 @@ section {
 
   .header-inner {
     gap: 12px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .header-ctas {
+    width: 100%;
+    justify-content: flex-end;
   }
 
   .btn-nav {
