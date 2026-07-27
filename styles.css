@@ -285,11 +285,25 @@ section {
   align-items: stretch;
 }
 
+/* The image column has no in-flow content (the img is absolutely
+   positioned), so it contributes zero natural height to the grid row.
+   That lets "stretch" size the row purely from the text column's
+   height, and only then does the absolutely positioned image resolve
+   its own height:100% against that already-settled box — avoiding the
+   circular sizing that height:auto + max-height:100% ran into. */
+.hero-grid-stretch .hero-visual {
+  position: relative;
+  display: block;
+}
+
 .visual-illustration-compact {
-  max-width: 400px;
-  max-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
   width: auto;
-  height: auto;
+  max-width: 400px;
 }
 
 /* ============ CALLOUT ============ */
@@ -948,8 +962,8 @@ section {
     order: -1;
   }
 
-  .visual-illustration-compact {
-    max-height: 320px;
+  .hero-grid-stretch .hero-visual {
+    height: 320px;
   }
 
   .row-item {
@@ -993,8 +1007,8 @@ section {
     grid-template-columns: 1fr;
   }
 
-  .visual-illustration-compact {
-    max-height: 240px;
+  .hero-grid-stretch .hero-visual {
+    height: 240px;
   }
 
   .header-inner {
