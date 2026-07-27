@@ -769,6 +769,77 @@ section {
 }
 
 /* ============ YAZILIM OKULU ============ */
+
+/* Logo marquee ("Where our graduates get hired") — pure CSS, no JS */
+.logo-marquee-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.logo-marquee-section .lead-paragraph {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.logo-marquee {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 40px;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.logo-marquee-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 64px;
+  animation: logo-marquee-scroll 32s linear infinite;
+}
+
+.logo-marquee:hover .logo-marquee-track {
+  animation-play-state: paused;
+}
+
+.logo-item {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-item img {
+  display: block;
+  width: auto;
+  height: 40px;
+}
+
+/* Klarna and SoundCloud are near-square marks rather than wide
+   wordmarks; bump them slightly so they don't read smaller than the
+   others at the same nominal height. */
+.logo-item img.logo-item-klarna {
+  height: 52px;
+}
+
+.logo-item img.logo-item-square {
+  height: 52px;
+}
+
+@keyframes logo-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee-track {
+    animation: none;
+  }
+}
+
 .hero-ctas-center {
   justify-content: center;
 }
@@ -1009,6 +1080,29 @@ section {
 
   .hero-grid-stretch .hero-visual {
     height: 240px;
+  }
+
+  .logo-marquee-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .logo-marquee {
+    margin-top: 28px;
+  }
+
+  .logo-marquee-track {
+    gap: 36px;
+    animation-duration: 22s;
+  }
+
+  .logo-item img {
+    height: 28px;
+  }
+
+  .logo-item img.logo-item-klarna,
+  .logo-item img.logo-item-square {
+    height: 36px;
   }
 
   .header-inner {
