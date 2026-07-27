@@ -994,6 +994,20 @@ section {
   margin-bottom: 0;
 }
 
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.testimonial-photo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 /* Curriculum ("Neler öğreneceksiniz?") */
 .curriculum-meta {
   text-align: center;
