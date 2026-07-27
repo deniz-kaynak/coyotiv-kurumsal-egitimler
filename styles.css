@@ -1380,6 +1380,200 @@ section {
   font-weight: 700;
 }
 
+/* ============ EN SOFTWARE SCHOOL PAGE ============ */
+.login-link {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.login-link:hover {
+  color: var(--color-turquoise);
+}
+
+.hero-badges {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background-color: var(--color-turquoise-soft);
+  color: var(--color-turquoise-hover);
+}
+
+.hero-stat-panel {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 32px;
+  width: 100%;
+}
+
+.hero-stat-duration {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-fuchsia);
+  margin-bottom: 4px;
+}
+
+.hero-stat-title {
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 18px;
+}
+
+.hero-stat-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px dashed var(--color-border);
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+.hero-stat-row:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.hero-stat-row span:last-child {
+  color: var(--color-text);
+  font-weight: 600;
+  text-align: right;
+}
+
+.stats-strip {
+  padding: 48px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.stats-strip-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 32px;
+  text-align: center;
+}
+
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--color-turquoise);
+  margin-bottom: 6px;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.spotlight-intro {
+  text-align: center;
+}
+
+.spotlight-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background-color: var(--color-fuchsia-soft);
+  color: var(--color-fuchsia-hover);
+  margin-bottom: 16px;
+}
+
+.spotlight-title {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+}
+
+.spotlight-subhead {
+  text-align: center;
+  font-size: 1.15rem;
+  margin: 56px 0 0;
+}
+
+.card-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.trainer-role {
+  color: var(--color-turquoise);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: 14px;
+}
+
+.footer-expanded-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 32px;
+  padding: 56px 32px 40px;
+}
+
+.footer-brand-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: var(--color-text);
+}
+
+.footer-col-brand p {
+  margin-bottom: 16px;
+  max-width: 320px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-turquoise);
+}
+
+.footer-social a:hover {
+  color: var(--color-turquoise-hover);
+}
+
+.footer-col h4 {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin: 0 0 14px;
+}
+
+.footer-col a {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.footer-col a:hover {
+  color: var(--color-turquoise);
+}
+
 /* ============ RESPONSIVE ============ */
 @media (max-width: 900px) {
   .hero-grid {
@@ -1439,12 +1633,31 @@ section {
   .footer-wordmark-img {
     height: 52px;
   }
+
+  .footer-expanded-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-col-brand {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 620px) {
   .card-grid-3,
-  .card-grid-5 {
+  .card-grid-5,
+  .card-grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .footer-expanded-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 40px 24px 32px;
+  }
+
+  .stats-strip-grid {
+    gap: 24px;
   }
 
   .hero-grid-stretch .hero-visual {
