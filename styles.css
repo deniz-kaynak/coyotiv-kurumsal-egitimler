@@ -766,20 +766,6 @@ section {
   border-color: var(--color-turquoise-hover);
 }
 
-.yo-hero {
-  text-align: center;
-  max-width: 760px;
-  margin: 0 auto;
-}
-
-.yo-hero h2 {
-  margin-bottom: 20px;
-}
-
-.yo-hero .lead-paragraph {
-  margin-bottom: 28px;
-}
-
 .yo-narrow {
   max-width: 700px;
   margin: 0 auto;
