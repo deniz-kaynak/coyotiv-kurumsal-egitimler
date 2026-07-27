@@ -580,6 +580,15 @@ section {
   font-family: var(--font-display);
 }
 
+.trainer-photo {
+  display: block;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 18px;
+}
+
 /* ============ FAQ (accordion, CSS-only) ============ */
 .faq-grid {
   display: flex;
