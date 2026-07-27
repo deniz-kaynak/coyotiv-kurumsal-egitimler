@@ -384,7 +384,7 @@ section {
   margin-bottom: 10px;
 }
 
-/* ============ COLLAPSIBLE PROBLEM CARDS (CSS-only, no JS) ============ */
+/* ============ PROBLEM CARDS (fully expanded, no toggle) ============ */
 .problem-grid {
   display: flex;
   flex-direction: column;
