@@ -1237,6 +1237,19 @@ section {
   color: var(--color-text);
 }
 
+.article-body code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9em;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.article-body li strong {
+  color: var(--color-text);
+}
+
 .article-footer-cta {
   margin-top: 64px;
 }

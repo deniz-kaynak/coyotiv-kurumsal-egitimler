@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Çağında Yazılımcılar için Problem Çözme Becerisini Geliştirme Rehberi | Coyotiv Blog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="assets/coyotiv-logo.png" alt="Coyotiv" class="logo-img"></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="blog.html#yazilar">Yazılar</a></li>
+      </ul>
+    </nav>
+    <div class="header-ctas">
+      <a href="index.html" class="btn btn-fuchsia btn-nav">Kurumsal Eğitimler</a>
+      <a href="yazilim-okulu.html" class="btn btn-primary btn-nav">Yazılım Okulu</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="section article-section">
+    <div class="container">
+      <div class="article">
+        <a href="blog.html" class="article-crosslink">← Tüm yazılara dön</a>
+        <p class="article-meta">Yapay Zeka &amp; Problem Çözme · 27 Temmuz 2026 · 15 dk okuma</p>
+        <h1>AI çağında yazılımcılar için problem çözme becerisini geliştirme rehberi</h1>
+
+        <img src="assets/blog/ai-cagi-problem-cozme-cover.webp" alt="Bir kafede kulaklık takıp dizüstü bilgisayarında kod yazan bir kişi, arkadan görünüyor." class="article-cover">
+
+        <div class="article-body">
+          <p class="article-lead">Ekranda boş bir dosya açık.</p>
+
+          <p>Eskiden yeni başlayan bir geliştirici bu noktada dokümantasyona gider, örnek projelere bakar, birkaç deneme yapar ve ilk satırı yazmaya çalışırdı. Bugün ise daha hızlı bir seçenek var.</p>
+
+          <p>Yapay zekâya ne istediğinizi söylüyorsunuz.</p>
+
+          <p>Birkaç saniye sonra elinizde çalışan bir fonksiyon, hazırlanmış bir arayüz, veritabanı modeli ve hatta birkaç test bulunuyor. Kod düzgün görünüyor. Açıklamalar ikna edici. Uygulama ilk denemede çalışırsa insanın aklına doğal olarak şu soru geliyor:</p>
+
+          <blockquote>"Programlama artık bu kadar kolaysa problem çözmeyi öğrenmeye neden ihtiyaç var?"</blockquote>
+
+          <p>Cevap basit:</p>
+
+          <p>Çünkü AI kod yazmayı kolaylaştırdı, hangi kodun yazılması gerektiğine karar vermeyi değil.</p>
+
+          <p>Bir yapay zekâ modeli kendisine verilen talimatı hızlı biçimde uygulayabilir. Ancak talimatın doğru olup olmadığını, gerçek problemi çözüp çözmediğini, güvenlik riski yaratıp yaratmadığını veya sistemin geri kalanını bozup bozmayacağını kendiliğinden garanti edemez.</p>
+
+          <p>Kod üretiminin ucuzladığı bir çağda geliştiricinin en değerli becerisi klavyeyi hızlı kullanmak değil; problemi anlamak, doğru soruları sormak, çözümü parçalara ayırmak ve ortaya çıkan sonucu denetlemektir.</p>
+
+          <p>Başka bir ifadeyle AI döneminde yazılım mühendisliği daha az düşünmeyi değil, daha iyi düşünmeyi gerektiriyor.</p>
+
+          <h2>Kod artık başlangıç noktası değil, olası cevaplardan biri</h2>
+
+          <p>Yazılım öğrenmeye başlayanların önemli bir bölümü ilerlemeyi yazdıkları kod miktarıyla ölçer.</p>
+
+          <p>Ne kadar çok fonksiyon yazarsam o kadar iyi geliştirici olurum.</p>
+
+          <p>Ne kadar çok framework bilirsem o kadar donanımlı olurum.</p>
+
+          <p>Ne kadar hızlı uygulama çıkarırsam o kadar başarılıyım.</p>
+
+          <p>Üretken AI bu ölçüleri şimdiden anlamsızlaştırmaya başladı. Bir model birkaç saniye içinde yüzlerce satır kod üretebiliyor. Basit bir arayüz, standart bir API veya yaygın bir veritabanı işlemi artık saatler yerine dakikalar içinde hazırlanabiliyor.</p>
+
+          <p>Bu durum kodun değersiz olduğu anlamına gelmiyor.</p>
+
+          <p>Kodun tek başına ayırt edici olmaktan çıktığı anlamına geliyor.</p>
+
+          <p>Artık asıl sorular şunlar:</p>
+
+          <p>Bu özellik gerçekten gerekli mi?</p>
+
+          <p>Kullanıcının yaşadığı problem doğru tanımlandı mı?</p>
+
+          <p>AI'a yeterli ve doğru bağlam verildi mi?</p>
+
+          <p>Üretilen çözüm mevcut sistemle uyumlu mu?</p>
+
+          <p>Kod güvenli mi?</p>
+
+          <p>Hangi uç durumlarda bozulabilir?</p>
+
+          <p>Bu çözüm kullanıcı sayısı arttığında çalışmaya devam eder mi?</p>
+
+          <p>Daha basit bir yöntem var mı?</p>
+
+          <p>Hiç kod yazmadan çözülebilir mi?</p>
+
+          <p>İyi bir geliştirici AI'a en uzun prompt'u yazan kişi değildir.</p>
+
+          <p>AI'ın çözmesini istediği problemin gerçekten çözülmeye değer olup olmadığını anlayan kişidir.</p>
+
+          <h2>"AI'a sordum, çalıştı" neden yeterli değil?</h2>
+
+          <p>Bir yapay zekâ modeli size çalışan kod verebilir.</p>
+
+          <p>Fakat çalışan kod ile doğru çözüm aynı şey değildir.</p>
+
+          <p>Bir kullanıcı kayıt sistemi düşünün. AI birkaç saniyede giriş formunu, API'yi ve veritabanı bağlantısını hazırlayabilir. Uygulama açılır, kullanıcı kaydolur ve ekranda başarılı mesajı görünür.</p>
+
+          <p>İlk bakışta problem çözülmüştür.</p>
+
+          <p>Peki parolalar güvenli biçimde saklanıyor mu?</p>
+
+          <p>Aynı e-posta adresiyle birden fazla hesap açılabiliyor mu?</p>
+
+          <p>Kullanıcı başka bir kişinin bilgilerine erişebilir mi?</p>
+
+          <p>Başarısız giriş denemeleri sınırlandırılıyor mu?</p>
+
+          <p>Veritabanı bağlantısı kesildiğinde kullanıcı ne görüyor?</p>
+
+          <p>Kişisel veriler log dosyalarına yazılıyor mu?</p>
+
+          <p>AI siz istemediğiniz sürece bu soruların tamamını dikkate almayabilir. Hatta siz isteseniz bile eksik veya yanlış bir çözüm önerebilir.</p>
+
+          <p>Modelin görevi ikna edici bir sonraki çıktıyı üretmektir.</p>
+
+          <p>Mühendisin görevi ise gerçek dünyada çalışacak bir sistem kurmaktır.</p>
+
+          <p>Bu ikisi aynı şey değildir.</p>
+
+          <h2>AI çağında problem çözmek ne anlama geliyor?</h2>
+
+          <p>Eskiden problem çözme çoğu zaman "bu algoritmayı nasıl yazarım?" sorusuyla ilişkilendirilirdi.</p>
+
+          <p>Bugün kapsam daha geniş.</p>
+
+          <p>Modern bir geliştiricinin problem çözme süreci şunları içerir:</p>
+
+          <ul>
+            <li>Problemi doğru tanımlamak</li>
+            <li>Eksik veya çelişkili gereksinimleri fark etmek</li>
+            <li>Görevi küçük ve doğrulanabilir parçalara ayırmak</li>
+            <li>AI'ın hangi aşamalarda kullanılacağını belirlemek</li>
+            <li>Modele doğru bağlamı ve sınırları vermek</li>
+            <li>Üretilen kodu okumak ve sorgulamak</li>
+            <li>Testlerle sonucu doğrulamak</li>
+            <li>Güvenlik, performans ve bakım risklerini değerlendirmek</li>
+            <li>Gerekirse AI'ın çözümünü reddetmek</li>
+            <li>Daha basit veya daha güvenilir bir alternatif geliştirmek</li>
+          </ul>
+
+          <p>AI problem çözme sürecinin yerine geçmez.</p>
+
+          <p>Sürecin bazı bölümlerini hızlandırır.</p>
+
+          <p>Bir hesap makinesi işlemi hızlandırır, fakat hangi hesabın yapılması gerektiğine karar vermez. AI da kod üretimini hızlandırır, ancak ürün ve mühendislik kararlarının sorumluluğunu üstlenmez.</p>
+
+          <h2>En büyük tehlike: Anlamadığınız kodun çalışması</h2>
+
+          <p>AI tarafından üretilen kodun tamamen bozuk olması çoğu zaman büyük bir sorun değildir.</p>
+
+          <p>Çünkü hata hemen görünür.</p>
+
+          <p>Uygulama açılmaz. Test başarısız olur. Konsolda açık bir hata mesajı bulunur.</p>
+
+          <p>Daha tehlikeli olan, kodun çalışıyor gibi görünmesidir.</p>
+
+          <p>Bir API doğru cevap verebilir ama kullanıcı yetkilerini kontrol etmiyor olabilir. Bir sorgu küçük veri kümesinde hızlı çalışabilir ama gerçek veri büyüklüğünde sistemi kilitleyebilir. Bir dosya yükleme özelliği işlevini yerine getirebilir ama zararlı dosyaların yüklenmesine izin verebilir.</p>
+
+          <p>Yeni başlayan bir geliştirici genellikle sonucu görür: "Çalışıyor."</p>
+
+          <p>Deneyimli bir mühendis ise görünmeyen ihtimalleri arar: "Hangi koşullarda çalışmaz?"</p>
+
+          <p>AI döneminde problem çözme becerisinin en önemli parçalarından biri budur.</p>
+
+          <p>Yalnızca çalışan yolu değil, sistemin kırılabileceği yolları düşünebilmek.</p>
+
+          <h2>İlk adım: AI'a sormadan önce problemi kendiniz tanımlayın</h2>
+
+          <p>Birçok geliştirici sorunla karşılaştığında doğrudan AI sohbet penceresini açıyor.</p>
+
+          <p>Bu kendi başına yanlış değil.</p>
+
+          <p>Sorun, henüz problemi anlamadan çözüm istemek.</p>
+
+          <p>AI'a şu tür bir komut vermek kolaydır:</p>
+
+          <p>"Bir kullanıcı giriş sistemi yaz."</p>
+
+          <p>Fakat bu komut gerçekte ne istediğinizi açıklamaz.</p>
+
+          <p>Hangi kullanıcılar?</p>
+
+          <p>Hangi uygulama?</p>
+
+          <p>E-posta ve parola mı kullanılacak?</p>
+
+          <p>Google ile giriş olacak mı?</p>
+
+          <p>Oturum ne kadar sürecek?</p>
+
+          <p>Roller ve erişim seviyeleri var mı?</p>
+
+          <p>Parola sıfırlama nasıl çalışacak?</p>
+
+          <p>Yasal veya kurumsal veri gereksinimleri neler?</p>
+
+          <p>Bu soruların cevabı yoksa model boşlukları kendi varsayımlarıyla doldurur.</p>
+
+          <p>Bu varsayımlar mantıklı görünebilir. Ancak sizin projeniz için yanlış olabilir.</p>
+
+          <p>Bu nedenle AI'a gitmeden önce problemi kendi cümlelerinizle yazın:</p>
+
+          <ul>
+            <li>Kullanıcı kim?</li>
+            <li>Ne yapmaya çalışıyor?</li>
+            <li>Şu anda ne ters gidiyor?</li>
+            <li>Başarılı sonuç neye benziyor?</li>
+            <li>Hangi kısıtlar var?</li>
+            <li>Hangi veriler kullanılacak?</li>
+            <li>Hangi işlemler riskli?</li>
+            <li>Hangi noktalar henüz belirsiz?</li>
+          </ul>
+
+          <p>Problemi açık biçimde tarif edemiyorsanız iyi bir AI çıktısı alma ihtimaliniz de düşer.</p>
+
+          <p>Belirsiz soru, genellikle yalnızca daha hızlı üretilmiş belirsiz bir çözüm doğurur.</p>
+
+          <h2>AI'dan önce sözde kod, AI'dan sonra açıklama</h2>
+
+          <p>Kod yazmadan önce çözümü doğal dille ifade etmek hâlâ en etkili yöntemlerden biridir.</p>
+
+          <p>Örneğin bir kullanıcının unutulan parolasını sıfırlayan sistemi şöyle tarif edebilirsiniz:</p>
+
+          <ol>
+            <li>Kullanıcı e-posta adresini girer.</li>
+            <li>Sistem e-posta adresinin kayıtlı olup olmadığını doğrudan açıklamaz.</li>
+            <li>Kısa süre geçerli, tek kullanımlık bir bağlantı oluşturulur.</li>
+            <li>Bağlantı kullanıcıya gönderilir.</li>
+            <li>Kullanıcı yeni parolasını belirler.</li>
+            <li>Bağlantı tekrar kullanılamaz.</li>
+            <li>Eski oturumlar gerekiyorsa kapatılır.</li>
+          </ol>
+
+          <p>Bu plan hazır olduğunda AI'dan her adım için öneri isteyebilirsiniz.</p>
+
+          <p>Fakat süreç kod geldikten sonra bitmemeli.</p>
+
+          <p>Modelden şu soruların cevabını da isteyin:</p>
+
+          <p>Bu çözümde hangi varsayımları yaptın?</p>
+
+          <p>Hangi güvenlik riskleri var?</p>
+
+          <p>Hangi uç durumları ele almadın?</p>
+
+          <p>Bu kod hangi koşullarda başarısız olabilir?</p>
+
+          <p>Daha basit bir alternatif var mı?</p>
+
+          <p>Bu sistemi nasıl test etmeliyim?</p>
+
+          <p>AI'dan yalnızca kod isteyen geliştirici bir çıktı alır.</p>
+
+          <p>AI'dan gerekçe, risk ve alternatif isteyen geliştirici ise düşünme sürecini görünür hâle getirir.</p>
+
+          <h2>Problemi küçük görevlere ayırın</h2>
+
+          <p>AI araçlarının en sık başarısız olduğu durumlardan biri, çok büyük ve belirsiz görevlerdir.</p>
+
+          <p>"Bana Airbnb gibi bir uygulama yap" komutu etkileyici bir demo üretebilir. Ancak gerçek bir ürün için bu talep fazla geniştir.</p>
+
+          <p>Bunun yerine problemi bölün:</p>
+
+          <ul>
+            <li>Kullanıcı hesabı oluşturma</li>
+            <li>İlan ekleme</li>
+            <li>Görsel yükleme</li>
+            <li>Tarih uygunluğu hesaplama</li>
+            <li>Rezervasyon oluşturma</li>
+            <li>Ödeme işlemi</li>
+            <li>İptal kuralları</li>
+            <li>Mesajlaşma</li>
+            <li>Değerlendirme sistemi</li>
+          </ul>
+
+          <p>Sonra her parçayı daha da küçültün.</p>
+
+          <p>Örneğin rezervasyon işlemi:</p>
+
+          <ul>
+            <li>Kullanıcı tarih seçebilir mi?</li>
+            <li>Tarihler uygun mu?</li>
+            <li>Giriş tarihi çıkış tarihinden önce mi?</li>
+            <li>Başka rezervasyonla çakışma var mı?</li>
+            <li>Fiyat nasıl hesaplanıyor?</li>
+            <li>Rezervasyon sırasında aynı tarih başka kullanıcı tarafından alınırsa ne olacak?</li>
+          </ul>
+
+          <p>Bu yaklaşımın iki avantajı var.</p>
+
+          <p>İlk olarak siz problemi daha iyi anlarsınız.</p>
+
+          <p>İkinci olarak AI'a daha dar, daha açık ve test edilebilir görevler verebilirsiniz.</p>
+
+          <p>AI'a dev bir görev verip sonucunu anlamaya çalışmak yerine küçük görevleri tek tek ürettirir, denetler ve birleştirirsiniz.</p>
+
+          <p>Bu, AI'ı kontrol altında tutmanın en etkili yollarından biridir.</p>
+
+          <h2>AI'ı cevap makinesi değil, hipotez üreticisi olarak kullanın</h2>
+
+          <p>Bir hata oluştuğunda AI'a bütün kodu gönderip "Bunu düzelt" demek kısa vadede işe yarayabilir.</p>
+
+          <p>Ancak daha öğretici yaklaşım, AI'dan olası nedenler istemektir.</p>
+
+          <p>Örneğin: "Bu hata için en olası beş nedeni önem sırasına göre yaz. Henüz kodu değiştirme."</p>
+
+          <p>Ardından her ihtimali ayrı ayrı test edebilirsiniz.</p>
+
+          <p>Veri gerçekten geliyor mu?</p>
+
+          <p>Fonksiyon doğru anda mı çalışıyor?</p>
+
+          <p>Değer beklediğimiz türde mi?</p>
+
+          <p>Hata yalnızca belirli kullanıcıda mı oluşuyor?</p>
+
+          <p>Son değişiklik problemi başlatmış olabilir mi?</p>
+
+          <p>Bu yaklaşım AI'ı kesin cevabı veren otorite olmaktan çıkarır. Onu olasılıklar sunan bir düşünme ortağına dönüştürür.</p>
+
+          <p>İyi hata ayıklama rastgele kod değiştirmek değildir.</p>
+
+          <p>Hipotez kurmak, deney yapmak ve olasılıkları elemek demektir.</p>
+
+          <p>AI bu süreçte hipotez üretimini hızlandırabilir. Ancak hangi hipotezin doğru olduğunu deney ve kanıt belirler.</p>
+
+          <h2>Hata mesajını AI'a göndermeden önce kendiniz okuyun</h2>
+
+          <p>AI araçlarının rahatlığı, geliştiricilerin hata mesajlarını okumadan kopyalamasına yol açabiliyor.</p>
+
+          <p>Bu alışkanlık uzun vadede ciddi bir sorun yaratır.</p>
+
+          <p>Çünkü hata mesajları yalnızca çözülmesi gereken engeller değil, sistemin nasıl çalıştığını öğreten kaynaklardır.</p>
+
+          <p>Bir hata mesajında genellikle şunlar bulunur:</p>
+
+          <ul>
+            <li>Hatanın türü</li>
+            <li>Hatanın gerçekleştiği dosya</li>
+            <li>Satır numarası</li>
+            <li>Çağrı zinciri</li>
+            <li>Beklenen ve alınan değer</li>
+            <li>İlgili modül veya fonksiyon</li>
+          </ul>
+
+          <p>AI'a göndermeden önce şu sorulara kendiniz cevap vermeye çalışın:</p>
+
+          <p>Hata hangi dosyada?</p>
+
+          <p>Hangi değer beklenenden farklı?</p>
+
+          <p>Hata ilk nerede başlıyor?</p>
+
+          <p>Kendi kodumda mı, kullandığım kütüphanede mi?</p>
+
+          <p>Bu hata her zaman mı oluyor?</p>
+
+          <p>Sonra AI'dan mesajı açıklamasını isteyebilirsiniz.</p>
+
+          <p>Fakat önce kendi tahmininizi yazın: "Bence <code>user</code> değeri veri gelmeden önce okunuyor."</p>
+
+          <p>Ardından modelin açıklamasıyla karşılaştırın.</p>
+
+          <p>Bu yöntem sizi pasif bir kullanıcı olmaktan çıkarır. Kendi muhakemenizi modelin önerileriyle sınayan bir geliştiriciye dönüştürür.</p>
+
+          <h2>AI'ın ürettiği çözümü test edin, ona inanmayın</h2>
+
+          <p>AI tarafından yazılan kodu değerlendirmenin en güvenilir yolu, modelin kendisine "Bu doğru mu?" diye sormak değildir.</p>
+
+          <p>Test etmektir.</p>
+
+          <p>Model kendi ürettiği yanlış çözümü aynı özgüvenle savunabilir.</p>
+
+          <p>Bu nedenle beklenen davranışları önceden belirleyin.</p>
+
+          <p>Örneğin bir kupon sistemi geliştiriyorsanız:</p>
+
+          <ul>
+            <li>Geçerli kupon indirimi uygulamalı.</li>
+            <li>Süresi dolmuş kupon reddedilmeli.</li>
+            <li>Aynı kupon ikinci kez kullanılmamalı.</li>
+            <li>İndirim toplam tutarı negatif yapmamalı.</li>
+            <li>Kullanıcıya ait olmayan kupon kullanılmamalı.</li>
+            <li>Boş sepet indirime girmemeli.</li>
+            <li>Eşzamanlı iki kullanım yalnızca bir kez başarılı olmalı.</li>
+          </ul>
+
+          <p>AI'dan bu senaryolar için test taslağı hazırlamasını isteyebilirsiniz.</p>
+
+          <p>Fakat testlerin de doğru olduğunu varsaymayın.</p>
+
+          <p>Model, kodun yaptığı şeyi test edebilir; kodun yapması gereken şeyi değil.</p>
+
+          <p>Bu nedenle test senaryosunun kaynağı gereksinimler olmalıdır.</p>
+
+          <p>AI yalnızca bunları yürütülebilir hâle getirmeye yardım etmelidir.</p>
+
+          <h2>"5 Neden" yöntemi AI döneminde neden daha önemli?</h2>
+
+          <p>AI bir hatanın görünen belirtisini hızla ortadan kaldırabilir.</p>
+
+          <p>Uygulama çöküyorsa bir <code>if</code> koşulu ekler. Değer <code>undefined</code> ise varsayılan değer atar. İstek başarısızsa tekrar deneme mekanizması yazar.</p>
+
+          <p>Bunlar bazen doğru çözümlerdir.</p>
+
+          <p>Bazen de yalnızca problemi gizler.</p>
+
+          <p>Örneğin:</p>
+
+          <p>Sayfa neden boş açılıyor?</p>
+
+          <p>Çünkü ürün listesi gelmiyor.</p>
+
+          <p>Ürün listesi neden gelmiyor?</p>
+
+          <p>Çünkü API hata veriyor.</p>
+
+          <p>API neden hata veriyor?</p>
+
+          <p>Çünkü veritabanı bağlantısı tükeniyor.</p>
+
+          <p>Bağlantılar neden tükeniyor?</p>
+
+          <p>Çünkü her istekte yeni bağlantı açılıyor.</p>
+
+          <p>Bağlantılar neden kapatılmıyor?</p>
+
+          <p>Çünkü veri erişim katmanı yanlış tasarlanmış.</p>
+
+          <p>AI ilk aşamada sayfaya "Yüklenemedi" mesajı ekleyebilir. Bu kullanıcı deneyimini iyileştirir, ancak kök problemi çözmez.</p>
+
+          <p>AI kod yazmayı hızlandırdıkça yüzeysel çözümler üretmek de kolaylaşıyor.</p>
+
+          <p>Bu nedenle geliştiricinin görevi yalnızca hatayı ortadan kaldırmak değil, neden ortaya çıktığını araştırmaktır.</p>
+
+          <h2>AI ile hızlı prototip üretmek ve ürün geliştirmek aynı şey değil</h2>
+
+          <p>Bugün birkaç komutla çalışan bir uygulama oluşturmak mümkün.</p>
+
+          <p>Bu, fikirleri test etmek için büyük bir avantaj.</p>
+
+          <p>Bir girişim fikrinin temel akışını görebilir, kullanıcılarla deneyebilir ve günlerce kod yazmadan önce varsayımınızı sınayabilirsiniz.</p>
+
+          <p>Ancak prototip ile ürün arasındaki farkı unutmamak gerekir.</p>
+
+          <p>Prototip şu soruya cevap verir: "Bu fikir nasıl görünebilir?"</p>
+
+          <p>Ürün ise çok daha zor sorulara cevap vermek zorundadır:</p>
+
+          <p>Gerçek kullanıcılarla güvenli biçimde çalışıyor mu?</p>
+
+          <p>Veriler doğru saklanıyor mu?</p>
+
+          <p>Hata durumları yönetiliyor mu?</p>
+
+          <p>Yük arttığında sistem ayakta kalıyor mu?</p>
+
+          <p>Erişilebilir mi?</p>
+
+          <p>Bakımı yapılabilir mi?</p>
+
+          <p>Maliyeti sürdürülebilir mi?</p>
+
+          <p>Yasal gerekliliklere uyuyor mu?</p>
+
+          <p>AI demoyu hızlandırır.</p>
+
+          <p>Mühendislik demoyu ürüne dönüştürür.</p>
+
+          <h2>Başkalarının ve AI'ın kodunu okuyabilmek yeni temel beceri</h2>
+
+          <p>Geçmişte yeni başlayanlara genellikle bol bol kod yazmaları tavsiye edilirdi.</p>
+
+          <p>Bu hâlâ önemli.</p>
+
+          <p>Ancak AI döneminde en az kod yazmak kadar kod okumayı da öğrenmek gerekiyor.</p>
+
+          <p>Çünkü çalışma hayatında giderek daha fazla kodu siz değil, başka insanlar veya modeller üretmiş olacak.</p>
+
+          <p>Bir kod parçasını okurken şu soruları sorun:</p>
+
+          <p>Bu kod ne yapıyor?</p>
+
+          <p>Neden bu yaklaşım seçilmiş?</p>
+
+          <p>Hangi girdileri kabul ediyor?</p>
+
+          <p>Hangi çıktıyı üretiyor?</p>
+
+          <p>Hangi yan etkileri var?</p>
+
+          <p>Hangi durumda hata verir?</p>
+
+          <p>Hangi bağımlılıkları kullanıyor?</p>
+
+          <p>Daha basit yazılabilir mi?</p>
+
+          <p>Güvenlik riski var mı?</p>
+
+          <p>Test edilebilir mi?</p>
+
+          <p>Modelin ürettiği kodu anlamadan projeye eklemek, tanımadığınız birinin verdiği parçayı gözünüz kapalı biçimde makineye takmaya benzer.</p>
+
+          <p>Belki çalışır.</p>
+
+          <p>Ama neyi değiştirdiğinizi bilmezsiniz.</p>
+
+          <h2>AI'dan yardım istemenin daha iyi yolları</h2>
+
+          <p>AI'ın öğrenmenizi engelleyip engellememesi büyük ölçüde ona nasıl soru sorduğunuza bağlıdır.</p>
+
+          <blockquote>"Bu problemi çöz."</blockquote>
+
+          <p>Bu komut size hızlı bir sonuç verir.</p>
+
+          <p>Şu komutlar ise becerinizi geliştirir:</p>
+
+          <ul>
+            <li>Çözümü vermeden problemi bana açıkla.</li>
+            <li>Bu problemi hangi küçük parçalara ayırabilirim?</li>
+            <li>Bana yalnızca ilk adım için ipucu ver.</li>
+            <li>Kodumdaki hatanın yerini söyleme, hangi değişkenleri kontrol etmem gerektiğini söyle.</li>
+            <li>Bu çözümde hangi varsayımları yapıyorum?</li>
+            <li>Kaçırmış olabileceğim uç durumları listele.</li>
+            <li>İki farklı yaklaşım öner ve avantajlarını karşılaştır.</li>
+            <li>Yazdığım kodu güvenlik açısından eleştir.</li>
+            <li>Bu kodun neden çalıştığını satır satır açıkla.</li>
+            <li>Çözümümü test edecek senaryolar hazırla.</li>
+            <li>Benim açıklamamda mantık hatası var mı?</li>
+            <li>Bu özelliği hiç yeni bağımlılık eklemeden çözebilir miyim?</li>
+          </ul>
+
+          <p>AI'ın verdiği ilk cevabı kabul etmek yerine karşı argüman isteyin: "Bu yaklaşımın kötü fikir olabileceği durumları yaz."</p>
+
+          <p>Böylece model yalnızca üretim aracı değil, tasarım kararlarını sınayan bir eleştiri aracı hâline gelir.</p>
+
+          <h2>Ne zaman AI kullanmamalısınız?</h2>
+
+          <p>AI her aşamada kullanılabilir. Ancak her aşamada kullanılması öğrenme açısından yararlı olmayabilir.</p>
+
+          <p>Yeni bir kavramı ilk kez öğreniyorsanız küçük bir problemi önce kendiniz çözmeye çalışın.</p>
+
+          <p>Bir algoritmanın nasıl çalıştığını anlamadan çözümü ürettirmek, kısa vadede zaman kazandırır ama zihinsel modeli oluşturmanızı engeller.</p>
+
+          <p>Şu durumlarda AI'dan önce kendiniz düşünmeye zaman ayırın:</p>
+
+          <ul>
+            <li>Temel bir programlama kavramını öğrenirken</li>
+            <li>Küçük bir algoritma sorusunu çözerken</li>
+            <li>Basit bir hata mesajını incelerken</li>
+            <li>Bir fonksiyonun akışını anlamaya çalışırken</li>
+            <li>Yeni öğrendiğiniz veri yapısını uygularken</li>
+            <li>Kendi çözüm yaklaşımınızı henüz kurmamışken</li>
+          </ul>
+
+          <p>Kendinize belirli bir süre tanıyabilirsiniz.</p>
+
+          <p>Örneğin 20 dakika boyunca problemi kendi başınıza anlamaya çalışın. Neleri denediğinizi yazın. Ardından AI'dan doğrudan çözüm değil, ipucu isteyin.</p>
+
+          <p>Amaç AI'dan uzak durmak değil.</p>
+
+          <p>Onu öğrenmenin en zor ve değerli bölümünü elinizden almayacak biçimde kullanmak.</p>
+
+          <h2>Ne zaman yardım istemelisiniz?</h2>
+
+          <p>Problem çözmek inat yarışması değildir.</p>
+
+          <p>Saatlerce aynı noktada dönmek her zaman derin öğrenme anlamına gelmez. Bazen yalnızca eksik bir bilgiye sahip olduğunuzu gösterir.</p>
+
+          <p>Yardım istemeden önce şunları hazırlayın:</p>
+
+          <ul>
+            <li>Ne yapmaya çalışıyorsunuz?</li>
+            <li>Ne olmasını bekliyorsunuz?</li>
+            <li>Gerçekte ne oluyor?</li>
+            <li>Hangi hata mesajını alıyorsunuz?</li>
+            <li>Neleri denediniz?</li>
+            <li>Hangi ihtimalleri elediniz?</li>
+            <li>Problemi en küçük hangi örnekte gösterebilirsiniz?</li>
+          </ul>
+
+          <p>Bu hazırlık AI'a daha iyi soru sormanızı da sağlar.</p>
+
+          <blockquote>Kötü soru: "Kodum çalışmıyor, düzelt."</blockquote>
+
+          <blockquote>Daha iyi soru: "Bu fonksiyonun boş dizi geldiğinde sıfır döndürmesini bekliyorum, fakat <code>undefined</code> döndürüyor. Girdiyi ve döngü koşulunu kontrol ettim. Sorunun dönüş değerinde olabileceğini düşünüyorum. Çözümü doğrudan yazmadan önce hangi noktaları incelemem gerektiğini söyle."</blockquote>
+
+          <p>İkinci soru yalnızca daha iyi cevap üretmez.</p>
+
+          <p>Sizin de problemi ne kadar anladığınızı gösterir.</p>
+
+          <h2>AI çağında uygulanabilir problem çözme rutini</h2>
+
+          <p>Bir sorunla karşılaştığınızda şu sırayı kullanabilirsiniz:</p>
+
+          <ol>
+            <li><strong>Problemi AI olmadan açıklayın.</strong> Kendi cümlelerinizle girdiyi, çıktıyı, kısıtları ve başarılı sonucu yazın.</li>
+            <li><strong>Bilmediklerinizi ayırın.</strong> Eksik gereksinimleri ve doğrulanmamış varsayımları listeleyin.</li>
+            <li><strong>Problemi küçük parçalara bölün.</strong> Her parçanın tek başına test edilebilir olmasına dikkat edin.</li>
+            <li><strong>Basit bir çözüm planı hazırlayın.</strong> Sözde kod veya adım listesi oluşturun.</li>
+            <li><strong>AI'dan planı eleştirmesini isteyin.</strong> Doğrudan kod değil, eksik noktaları ve riskleri sorun.</li>
+            <li><strong>En küçük çalışan parçayı geliştirin.</strong> Kodu kendiniz yazabilir veya AI'dan taslak alabilirsiniz.</li>
+            <li><strong>Üretilen her satırı anlayın.</strong> Açıklayamadığınız kodu projeye eklemeyin.</li>
+            <li><strong>Test senaryolarını gereksinimlerden çıkarın.</strong> Normal durumları, uç durumları ve başarısızlıkları kapsayın.</li>
+            <li><strong>AI çıktısını ikinci bir yöntemle doğrulayın.</strong> Dokümantasyon, test, kod incelemesi veya bağımsız bir çözüm kullanın.</li>
+            <li><strong>Çözümü sadeleştirin.</strong> Gereksiz kodu, bağımlılığı ve karmaşıklığı kaldırın.</li>
+            <li><strong>Süreci kaydedin.</strong> AI nerede yardımcı oldu? Nerede yanıldı? Hangi varsayımı siz fark ettiniz?</li>
+          </ol>
+
+          <p>Bu rutin, AI'ı düşünmenin yerine değil, düşünmenin içine yerleştirir.</p>
+
+          <h2>AI çağında iyi geliştirici kimdir?</h2>
+
+          <p>İyi geliştirici artık her şeyi hafızasından yazan kişi olmayabilir.</p>
+
+          <p>Zaten hiçbir zaman tam olarak bu değildi.</p>
+
+          <p>İyi geliştirici:</p>
+
+          <ul>
+            <li>Doğru problemi seçer.</li>
+            <li>Belirsiz gereksinimleri netleştirir.</li>
+            <li>Büyük görevleri küçük parçalara ayırır.</li>
+            <li>AI'a doğru bağlamı verir.</li>
+            <li>Üretilen kodu okuyabilir.</li>
+            <li>Yanlış veya eksik çözümü fark eder.</li>
+            <li>Güvenlik ve performans risklerini düşünür.</li>
+            <li>Sonucu test eder.</li>
+            <li>Gereksiz kod yazmaktan kaçınır.</li>
+            <li>Teknolojiyi kullanıcı ihtiyacına bağlar.</li>
+            <li>Bilmediğini fark eder ve doğru kaynağa gider.</li>
+            <li>Ortaya çıkan sistemin sorumluluğunu üstlenir.</li>
+          </ul>
+
+          <p>AI bilgiye ve koda erişimi demokratikleştiriyor.</p>
+
+          <p>Bu iyi bir gelişme.</p>
+
+          <p>Ancak herkesin hızlı kod üretebildiği bir dünyada asıl fark, kimin daha fazla kod yazdığıyla belirlenmeyecek.</p>
+
+          <p>Kimin doğru soruları sorduğuyla belirlenecek.</p>
+
+          <h2>Coyotiv'de neden problem çözmeyi merkeze alıyoruz?</h2>
+
+          <p>Coyotiv'in yaklaşımı yalnızca bugünün popüler araçlarını öğretmek üzerine kurulu değil.</p>
+
+          <p>Çünkü araçlar hızla değişiyor.</p>
+
+          <p>Bugün kullandığınız model, framework veya kütüphane birkaç yıl sonra yerini başka bir araca bırakabilir. AI modelleri daha fazla kod yazabilir, daha uzun görevleri tamamlayabilir ve yazılım geliştirme sürecinin daha büyük bölümünü otomatikleştirebilir.</p>
+
+          <p>Ancak hâlâ birinin:</p>
+
+          <ul>
+            <li>Gerçek problemi anlaması</li>
+            <li>Doğru çözümü tasarlaması</li>
+            <li>Yapay zekâya verilecek bağlamı belirlemesi</li>
+            <li>Üretilen çıktıyı denetlemesi</li>
+            <li>Riskleri öngörmesi</li>
+            <li>Sistemin sorumluluğunu alması gerekir</li>
+          </ul>
+
+          <p>Bu nedenle Coyotiv'de amaç öğrencilere yalnızca kod ürettirmek değil, mühendis gibi düşünme becerisi kazandırmaktır.</p>
+
+          <p>Öğrenciler gerçek projeler üzerinde çalışır, hatalarla karşılaşır, çözüm yollarını tartışır, kodlarına geri bildirim alır ve AI araçlarını bilinçli biçimde kullanmayı öğrenir.</p>
+
+          <p>AI'dan kaçmak yerine onunla çalışırlar.</p>
+
+          <p>Ama çözümü modele teslim etmezler.</p>
+
+          <p>Çünkü modern bir yazılım mühendisi AI'ın söylediklerini uygulayan kişi değildir.</p>
+
+          <p>AI'ı yöneten, sorgulayan ve gerektiğinde ona "hayır, bu çözüm doğru değil" diyebilen kişidir.</p>
+
+          <h2>Sonuç: AI kodu yazabilir, problemi siz çözersiniz</h2>
+
+          <p>Yapay zekâ yazılım geliştirmeyi kolaylaştırıyor.</p>
+
+          <p>Bir fikri hızla prototipe dönüştürebilir, hata mesajlarını açıklayabilir, test taslakları hazırlayabilir ve bilmediğiniz teknolojilerle çalışmaya başlamanızı kolaylaştırabilir.</p>
+
+          <p>Fakat kolaylaşan şey kod üretimidir.</p>
+
+          <p>Mühendislik değil.</p>
+
+          <p>Bir sistemin ne yapması gerektiğine karar vermek, kullanıcı ihtiyacını anlamak, riskleri öngörmek ve çözümün doğru çalıştığını kanıtlamak hâlâ insan muhakemesi gerektiriyor.</p>
+
+          <p>AI'ın yazdığı kodu çalıştırmak sizi geliştirici yapmaz.</p>
+
+          <p>O kodun neden yazıldığını, nasıl çalıştığını, nerede bozulacağını ve daha iyi bir çözümün mümkün olup olmadığını anlayabilmek sizi geliştirici yapar.</p>
+
+          <p>Gelecekte en değerli yazılım mühendisleri en hızlı yazanlar olmayacak.</p>
+
+          <p>En iyi düşünenler olacak.</p>
+        </div>
+
+        <div class="callout article-footer-cta">
+          <p class="callout-title">AI çağında modern bir yazılım mühendisi olmaya hazır mısınız?</p>
+          <p>Coyotiv School of Software Engineering'de yalnızca kod üretmeyi değil, AI ile birlikte problem çözmeyi öğrenirsiniz. Bir problemi nasıl tanımlayacağınızı, küçük parçalara nasıl ayıracağınızı, AI'a doğru bağlamı nasıl vereceğinizi ve üretilen çıktıyı nasıl denetleyeceğinizi gerçek projeler üzerinde deneyimlersiniz. Çünkü geleceğin geliştiricisi AI kullanıp kullanmayacağına karar veren kişi olmayacak. AI'ı ne zaman, neden ve nasıl kullanacağını bilen kişi olacak.</p>
+          <div class="hero-ctas hero-ctas-center">
+            <a href="yazilim-okulu.html" class="btn btn-fuchsia">Coyotiv Yazılım Okulu'nu inceleyin →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-banner">
+    <img src="assets/coyotiv-logo.png" alt="Coyotiv" class="footer-wordmark-img">
+  </div>
+  <div class="container footer-bar">
+    <p>Copyright, COYOTIV, 2026. Tüm hakları saklıdır.</p>
+    <nav class="footer-nav">
+      <a href="index.html">Kurumsal Eğitimler</a>
+      <a href="yazilim-okulu.html">Yazılım Okulu</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </div>
+</footer>
+
+</body></html>
