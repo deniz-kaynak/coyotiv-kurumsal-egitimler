@@ -135,7 +135,10 @@ section {
 
 /* ============ BUTTONS ============ */
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
   padding: 13px 24px;
   border-radius: var(--radius);
   font-weight: 600;
