@@ -1372,4 +1372,43 @@
 <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
 <!-- End Brevo Form scripts -->
 
+<!-- Custom: replace Brevo's plain-text success message with our own rich
+     "thank you" content once a submission succeeds. Does not touch
+     Brevo's own script or validation/submit logic. -->
+<script>
+(function () {
+  var successPanel = document.getElementById('success-message');
+  if (!successPanel) return;
+  var applied = false;
+  var richHTML =
+    '<div class="apply-thankyou">' +
+      '<h3 class="apply-thankyou__title">Thank you for your Application</h3>' +
+      '<p class="apply-thankyou__lede">We successfully received your application.</p>' +
+      '<div class="apply-thankyou__callout">' +
+        '<strong>Check your email!</strong>' +
+        '<p>We have just sent you some info about the next steps.</p>' +
+      '</div>' +
+      '<h4 class="apply-thankyou__subhead">Our admission process</h4>' +
+      '<ol class="apply-thankyou__steps">' +
+        '<li class="is-done"><span class="apply-thankyou__step-marker">&#10003;</span>Complete the application</li>' +
+        '<li><span class="apply-thankyou__step-marker">2</span>Book a call with our Admission Team</li>' +
+        '<li><span class="apply-thankyou__step-marker">3</span>1st call with the Admission Team</li>' +
+        '<li><span class="apply-thankyou__step-marker">4</span>2nd call with the Teaching Team</li>' +
+        '<li><span class="apply-thankyou__step-marker">5</span>Welcome on-board!</li>' +
+      '</ol>' +
+      '<p class="apply-thankyou__contact">' +
+        'If you have any questions please reach out to us:<br>' +
+        '<a href="mailto:admissions@coyotiv.com">admissions@coyotiv.com</a><br>' +
+        '<a href="tel:+4930863209083">+49 30 863 20 90 83</a>' +
+      '</p>' +
+    '</div>';
+  var observer = new MutationObserver(function () {
+    if (applied || !successPanel.classList.contains('sib-form-message-panel--active')) return;
+    applied = true;
+    successPanel.innerHTML = richHTML;
+  });
+  observer.observe(successPanel, { attributes: true, attributeFilter: ['class'] });
+})();
+</script>
+
 </body></html>
