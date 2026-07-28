@@ -1066,61 +1066,12 @@ section {
 }
 
 /* ============ FOOTER ============ */
+/* One consistent dark footer surface site-wide — brand/social, link
+   columns, and the copyright bar all live on the same background
+   instead of being split into separate light/gradient/light bands. */
 .site-footer {
-  border-top: 1px dashed var(--color-border);
-}
-
-/* Unified dark footer used on the English School page — keeps the
-   brand grid, logo, and copyright bar on one consistent surface
-   instead of three visually disconnected bands. */
-.site-footer.footer-dark {
-  border-top: none;
   background: var(--color-text);
   color: rgba(237, 238, 230, 0.68);
-}
-
-.footer-banner {
-  background: linear-gradient(120deg, var(--color-turquoise), var(--color-fuchsia));
-  padding: 44px 0;
-  text-align: center;
-}
-
-.footer-wordmark-img {
-  display: inline-block;
-  height: 72px;
-  width: auto;
-}
-
-.footer-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-  padding: 24px 32px;
-  background-color: var(--color-bg);
-}
-
-.footer-bar p {
-  font-size: 0.78rem;
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.footer-nav {
-  display: flex;
-  gap: 18px;
-  flex-wrap: wrap;
-}
-
-.footer-nav a {
-  color: var(--color-text-muted);
-  font-size: 0.82rem;
-}
-
-.footer-nav a:hover {
-  color: var(--color-turquoise);
 }
 
 /* ============ YAZILIM OKULU ============ */
@@ -1940,10 +1891,6 @@ section {
     font-size: 2.4rem;
   }
 
-  .footer-wordmark-img {
-    height: 52px;
-  }
-
   .footer-expanded-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -2074,13 +2021,8 @@ section {
     font-size: 1.3rem;
   }
 
-  .footer-bar,
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .footer-wordmark-img {
-    height: 38px;
   }
 }
