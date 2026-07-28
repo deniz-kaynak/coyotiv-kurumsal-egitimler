@@ -902,6 +902,39 @@ section {
   color: var(--color-text);
 }
 
+/* Light brand alignment for the embedded Brevo form — cosmetic only,
+   Brevo's own markup/classes/JS wiring are left untouched so the
+   widget's validation and submit behavior keep working. */
+.modal-box #sib-container,
+.modal-box #sib-container * {
+  font-family: var(--font-body) !important;
+}
+
+.modal-box .sib-form-block__button {
+  background-color: var(--color-turquoise) !important;
+  border-radius: var(--radius) !important;
+  transition: background-color 0.15s ease;
+}
+
+.modal-box .sib-form-block__button:hover {
+  background-color: var(--color-turquoise-hover) !important;
+}
+
+.modal-box .entry__label,
+.modal-box .sib-form-block p {
+  color: var(--color-text) !important;
+}
+
+/* Keep the Brevo success/error message visible even when the user has
+   scrolled the modal down to reach the submit button — otherwise it
+   renders off-screen at the top and submission looks like it did nothing. */
+.modal-box .sib-form-message-panel--active {
+  position: sticky !important;
+  top: 0;
+  z-index: 5;
+  margin-bottom: 12px;
+}
+
 .modal-box h3 {
   padding-right: 24px;
 }
