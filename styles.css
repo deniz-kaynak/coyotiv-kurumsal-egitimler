@@ -862,11 +862,13 @@ section {
 
 /* ============ APPLY MODAL (CSS-only, no JS) ============ */
 .modal-toggle {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 1px;
   height: 1px;
   padding: 0;
-  margin: -1px;
+  margin: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
