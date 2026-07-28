@@ -1819,17 +1819,24 @@ section {
 
 .footer-social {
   display: flex;
-  gap: 16px;
+  gap: 12px;
 }
 
-.footer-social a {
-  font-size: 0.85rem;
-  font-weight: 600;
+.footer-col .footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-turquoise-soft);
   color: var(--color-turquoise);
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
-.footer-social a:hover {
-  color: var(--color-turquoise-hover);
+.footer-col .footer-social a:hover {
+  background: var(--color-turquoise);
+  color: #fff;
 }
 
 .footer-col h4 {
