@@ -1070,6 +1070,15 @@ section {
   border-top: 1px dashed var(--color-border);
 }
 
+/* Unified dark footer used on the English School page — keeps the
+   brand grid, logo, and copyright bar on one consistent surface
+   instead of three visually disconnected bands. */
+.site-footer.footer-dark {
+  border-top: none;
+  background: var(--color-text);
+  color: rgba(237, 238, 230, 0.68);
+}
+
 .footer-banner {
   background: linear-gradient(120deg, var(--color-turquoise), var(--color-fuchsia));
   padding: 44px 0;
@@ -1804,17 +1813,17 @@ section {
   padding: 56px 32px 40px;
 }
 
-.footer-brand-title {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 10px;
-  color: var(--color-text);
+.footer-logo-img {
+  display: block;
+  height: 32px;
+  width: auto;
+  margin-bottom: 16px;
 }
 
 .footer-col-brand p {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   max-width: 320px;
+  color: rgba(237, 238, 230, 0.6);
 }
 
 .footer-social {
@@ -1829,33 +1838,50 @@ section {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: var(--color-turquoise-soft);
-  color: var(--color-turquoise);
+  background: rgba(237, 238, 230, 0.1);
+  color: rgba(237, 238, 230, 0.85);
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .footer-col .footer-social a:hover {
   background: var(--color-turquoise);
-  color: #fff;
+  color: var(--color-text);
 }
 
 .footer-col h4 {
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--color-text-muted);
+  color: rgba(237, 238, 230, 0.4);
   margin: 0 0 14px;
 }
 
 .footer-col a {
   display: block;
   font-size: 0.9rem;
-  color: var(--color-text);
+  color: rgba(237, 238, 230, 0.78);
   margin-bottom: 10px;
 }
 
 .footer-col a:hover {
   color: var(--color-turquoise);
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 32px;
+  border-top: 1px solid rgba(237, 238, 230, 0.12);
+}
+
+.footer-bottom p {
+  font-size: 0.78rem;
+  color: rgba(237, 238, 230, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 /* ============ RESPONSIVE ============ */
@@ -2048,7 +2074,8 @@ section {
     font-size: 1.3rem;
   }
 
-  .footer-bar {
+  .footer-bar,
+  .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
   }
