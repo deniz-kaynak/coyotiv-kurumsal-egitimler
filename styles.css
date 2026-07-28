@@ -752,6 +752,24 @@ section {
   margin-bottom: 20px;
 }
 
+/* Light brand alignment for the embedded Brevo discovery-call form —
+   cosmetic only, Brevo's own markup/classes/JS wiring are left untouched
+   so the widget's validation and submit behavior keep working. */
+.contact-form-wrapper #sib-container,
+.contact-form-wrapper #sib-container * {
+  font-family: var(--font-body) !important;
+  text-align: left !important;
+}
+
+.contact-form-wrapper .entry__label,
+.contact-form-wrapper .sib-form-block p {
+  color: var(--color-text) !important;
+}
+
+.contact-form-wrapper .sib-form-message-panel--active {
+  margin-bottom: 20px;
+}
+
 .contact-form label {
   display: block;
   font-size: 0.8rem;
