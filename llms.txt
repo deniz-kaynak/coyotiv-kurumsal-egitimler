@@ -22,6 +22,12 @@ Coyotiv designs and delivers AI and technology training for companies — from e
 ## Blog (English)
 - [Coyotiv Blog](https://school.coyotiv.com/blog-en): English-language articles on AI engineering, software engineering careers, and learning science, written by Coyotiv's trainers and team.
 
+## About (Turkish)
+- [Hakkımızda](https://school.coyotiv.com/about): Company mission, the four pillars of the Coyotiv ecosystem (School of Software Engineering, Collaboration Services, Mentorship Network, CoyotivLabs), core values, and instructors.
+
+## About (English)
+- [About](https://school.coyotiv.com/about-en): English version of the about page.
+
 ## Legal
 - [Privacy Policy](https://school.coyotiv.com/privacy-policy)
 - [Terms & Conditions](https://school.coyotiv.com/terms-conditions)

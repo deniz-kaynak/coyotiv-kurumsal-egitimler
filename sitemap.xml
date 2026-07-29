@@ -63,6 +63,26 @@
   </url>
 
   <url>
+    <loc>https://school.coyotiv.com/about</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://school.coyotiv.com/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://school.coyotiv.com/about-en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://school.coyotiv.com/about-en"/>
+  </url>
+
+  <url>
+    <loc>https://school.coyotiv.com/about-en</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://school.coyotiv.com/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://school.coyotiv.com/about-en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://school.coyotiv.com/about-en"/>
+  </url>
+
+  <url>
     <loc>https://school.coyotiv.com/blog-deneyimli-muhendisler-egitime-donuyor</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>

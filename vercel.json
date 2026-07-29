@@ -4,7 +4,6 @@
   "redirects": [
     { "source": "/privacypolicy", "destination": "/privacy-policy", "permanent": true },
     { "source": "/termsconditions", "destination": "/terms-conditions", "permanent": true },
-    { "source": "/about", "destination": "/yazilim-okulu-en", "permanent": true },
     { "source": "/instructors", "destination": "/yazilim-okulu-en#instructors", "permanent": true },
     { "source": "/apply", "destination": "/yazilim-okulu-en", "permanent": true },
     { "source": "/school-of-software-engineering/apply", "destination": "/yazilim-okulu-en", "permanent": true },
