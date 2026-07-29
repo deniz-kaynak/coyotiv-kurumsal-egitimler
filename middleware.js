@@ -7,6 +7,6 @@ export default function middleware(request) {
   const primaryLang = acceptLanguage.split(',')[0]?.trim().toLowerCase();
 
   if (primaryLang && !primaryLang.startsWith('tr')) {
-    return Response.redirect(new URL('/en.html', request.url), 307);
+    return Response.redirect(new URL('/en', request.url), 307);
   }
 }
