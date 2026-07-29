@@ -15,7 +15,7 @@
     { "source": "/blog/six-myths-of-software-engineering-debunked", "destination": "/blog-six-myths-software-engineering-en", "permanent": true },
     { "source": "/blog/what-does-a-full-stack-engineer-do", "destination": "/blog-full-stack-engineer-en", "permanent": true },
     { "source": "/blog/how-we-learn-six-science-based-tips-to-maximize-comprehension-memory-and-learning", "destination": "/blog-how-we-learn-en", "permanent": true },
-    { "source": "/blog/:slug*", "destination": "/blog-en", "permanent": true },
-    { "source": "/courses/:slug*", "destination": "/yazilim-okulu-en", "permanent": true }
+    { "source": "/blog/:slug+", "destination": "/blog-en", "permanent": true },
+    { "source": "/courses/:slug+", "destination": "/yazilim-okulu-en", "permanent": true }
   ]
 }
