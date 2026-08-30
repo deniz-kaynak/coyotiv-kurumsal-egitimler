@@ -2,6 +2,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    { "source": "/ai-hazirlik-raporu", "destination": "/fark-karnesi", "permanent": true },
     { "source": "/privacypolicy", "destination": "/privacy-policy", "permanent": true },
     { "source": "/termsconditions", "destination": "/terms-conditions", "permanent": true },
     { "source": "/instructors", "destination": "/yazilim-okulu-en#instructors", "permanent": true },

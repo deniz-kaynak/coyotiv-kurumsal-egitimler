@@ -93,8 +93,8 @@
 
   var FORM_HTML =
     '<div class="assessment-panel">' +
-      '<h2>Ekip Değerlendirmesi</h2>' +
-      '<p class="assessment-intro">Şirketinizin yapay zekâ hazırlığına ilişkin aşağıdaki 20 ifadeyi kendi gözlemlerinize göre cevaplayın. Yaklaşık 3 dakika sürer.</p>' +
+      '<h2>Şirketinizin yapay zekâ hazırlığını değerlendirin</h2>' +
+      '<p class="assessment-intro">Yöneticiniz bu değerlendirmeyi kendi sonucuyla karşılaştırmak istiyor. Aşağıdaki 20 ifadeyi kendi gözlemlerinize göre cevaplayın — yaklaşık 3 dakika sürer, cevabınız tamamen anonimdir.</p>' +
       '<div class="assessment-progress-track"><div class="assessment-progress-fill" id="progressFill"></div></div>' +
       '<form id="teamForm">' +
         '<div id="teamQuestions"></div>' +
@@ -145,7 +145,7 @@
         content.innerHTML =
           '<div class="assessment-panel" style="text-align:center;">' +
             '<h2>Teşekkürler</h2>' +
-            '<p class="assessment-intro">Cevabınız anonim olarak kaydedildi. Kimlik bilgisi tutulmadı.</p>' +
+            '<p class="assessment-intro">Cevabınız kaydedildi. Kimlik bilginiz hiçbir aşamada tutulmadı.</p>' +
           '</div>';
       })
       .catch(function () {
