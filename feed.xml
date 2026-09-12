@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coyotiv Blog</title>
+    <link>https://school.coyotiv.com/blog</link>
+    <description>Coyotiv'in kurumsal eğitimlerinden ve Yazılım Okulu'ndan uzmanların kaleme aldığı, yapay zeka mühendisliği, yazılım kariyeri ve öğrenme üzerine yazılar.</description>
+    <language>tr</language>
+    <atom:link href="https://school.coyotiv.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sat, 12 Sep 2026 00:35:39 GMT</lastBuildDate>
+    <item>
+      <title>Neden Deneyimli Mühendisler Bile Yazılım Eğitimine Geri Dönüyor?</title>
+      <link>https://school.coyotiv.com/blog-deneyimli-muhendisler-egitime-donuyor</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-deneyimli-muhendisler-egitime-donuyor</guid>
+      <description>Coyotiv'in sınıfları artık sadece amatörlerle değil, 3-5 yıllık deneyime sahip orta seviye ve senior yazılımcılarla dolu. Armağan Amcalar'a göre yazılımcılığın tanımı kalıcı olarak değişiyor.</description>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Yazılım Dünyasında Vitrinin Ötesi: AI Çağında Etkili Bir Kodlama Eğitimi Nasıl Ayırt Edilir?</title>
+      <link>https://school.coyotiv.com/blog-ai-caginda-etkili-kodlama-egitimi</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-ai-caginda-etkili-kodlama-egitimi</guid>
+      <description>Yapay zeka kod üretebiliyor, ama bir yazılım eğitiminin gerçek değeri neyde saklı? Coyotiv CEO'su Armağan Amcalar'ın gözünden, AI çağında etkili bir kodlama eğitimini ayırt eden 3 temel kriter.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>&quot;Her İhtimale Karşı&quot; Öğrenmenin Sonu: Tam Zamanında Öğrenme Metodu Neden Önemli?</title>
+      <link>https://school.coyotiv.com/blog-tam-zamaninda-ogrenme</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-tam-zamaninda-ogrenme</guid>
+      <description>Bilgi artık kıt değil, bolluk içinde. Coyotiv CEO'su Armağan Amcalar'a göre yapay zeka çağında en önemli beceri, tam ihtiyaç duyulan anda doğru bilgiyi bulup uygulamak.</description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coder'dan Mimara: AI Çağında Yazılım Mühendisliği Nasıl Öğrenilir?</title>
+      <link>https://school.coyotiv.com/blog-coderdan-mimara</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-coderdan-mimara</guid>
+      <description>Yazılım dünyasında büyük bir dönüşüm yaşanıyor. Coyotiv CEO'su Armağan Amcalar'a göre kod yazmak artık kıt beceri değil; muhakeme, mimari zevk ve sorumluluk alma kıt hâle geliyor.</description>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Evrensel Atina'nın Mimarları: Kod İşçiliğinden Dijital Aristokrasiye</title>
+      <link>https://school.coyotiv.com/blog-evrensel-atinanin-mimarlari</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-evrensel-atinanin-mimarlari</guid>
+      <description>OpenAI ve Palantir'in manifestoları yapay zekânın bir sosyal refah aracı mı yoksa bir devlet silahı mı olduğunu tartışıyor. Coyotiv CEO'su Armağan Amcalar, ajanların her profesyoneli bir mimara dönüştürdüğü bir 'Evrensel Atina' öneriyor.</description>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>JavaScript'in Sorunu Ne?</title>
+      <link>https://school.coyotiv.com/blog-javascript-sorunu</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-javascript-sorunu</guid>
+      <description>Yeni framework çıktıkça neden hep bir taşınma hissi yaşıyoruz? Framework yorgunluğunun kaynağını, hype'a kanmadan teknoloji seçmenin bilimsel yollarını ve AI'ın bu karmaşayı azaltıp azaltmadığını ele alıyoruz.</description>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Yalnızca Prompt Değil Mimari Üretin: 5 Üretken Yapay Zeka Projesi</title>
+      <link>https://school.coyotiv.com/blog-5-uretken-yapay-zeka-projesi</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-5-uretken-yapay-zeka-projesi</guid>
+      <description>Basit bir ChatGPT wrapper'ı artık dikkat çeken bir portföy için yeterli değil. Bağlam yönetimi, araç kullanımı, RAG, çok ajanlı orkestrasyon ve üretime hazır mühendislik pratiklerini gösteren 5 proje fikri.</description>
+      <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI Çağında Teknoloji Kariyerinizi Nasıl Planlamalısınız?</title>
+      <link>https://school.coyotiv.com/blog-ai-caginda-kariyer-planlama</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-ai-caginda-kariyer-planlama</guid>
+      <description>Beş yıl sonra hangi işler var olacağını bilmiyorsanız bugün nasıl kariyer planı yaparsınız? Bir iş unvanına değil bir yöne odaklanmayı, becerilerinizi katmanlara ayırmayı ve 90 günlük kariyer deneyleri tasarlamayı ele alıyoruz.</description>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coyotiv School of Software Engineering'de Nasıl Hayatta Kalırsınız?</title>
+      <link>https://school.coyotiv.com/blog-coyotivde-hayatta-kalma</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-coyotivde-hayatta-kalma</guid>
+      <description>Beklentilerinizi gerçekçi tutmaktan AI'ı düşünme sürecinize teslim etmemeye, imposter sendromundan molalara kadar; programı en verimli ve sağlıklı biçimde tamamlamanız için 20 çalışma ilkesi.</description>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI Çağında Yazılımcılar için Problem Çözme Becerisini Geliştirme Rehberi</title>
+      <link>https://school.coyotiv.com/blog-ai-caginda-problem-cozme</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-ai-caginda-problem-cozme</guid>
+      <description>&quot;AI'a sordum, çalıştı&quot; neden yeterli değil? Problemi AI'a sormadan önce tanımlamaktan hata mesajlarını körü körüne yapıştırmamaya, AI çağında gerçekten işe yarayan problem çözme rutinini adım adım ele alıyoruz.</description>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Full-Stack Yazılım Mühendisi Ne Yapar?</title>
+      <link>https://school.coyotiv.com/blog-full-stack-yazilim-muhendisi</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-full-stack-yazilim-muhendisi</guid>
+      <description>Frontend, backend, veritabanı, bulut, güvenlik ve AI destekli geliştirme... Full-stack olmak her şeyi bilmek mi, yoksa bütünü görebilmek mi? Rolün gerçek kapsamını ve sıfırdan nasıl öğrenilebileceğini ele alıyoruz.</description>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Yapay Zeka, Yazılım Mühendislerinin İşini Elinden Alacak mı?</title>
+      <link>https://school.coyotiv.com/blog-yapay-zeka-yazilim-muhendisi</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-yapay-zeka-yazilim-muhendisi</guid>
+      <description>AI kod yazabiliyorsa yazılım mühendisine neden ihtiyaç kalsın? Veriler, araştırmalar ve Coyotiv kurucusu Armağan Amcalar'ın yaklaşımı ışığında, mühendisliğin neden kod yazmaktan çok daha fazlası olduğunu ele alıyoruz.</description>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nasıl Öğreniriz? Anlamayı ve Öğrenme Verimini Artıran 6 Bilimsel Yöntem</title>
+      <link>https://school.coyotiv.com/blog-nasil-ogreniriz-6-yontem</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-nasil-ogreniriz-6-yontem</guid>
+      <description>Gece geç saatlere kadar çalışmak işe yarar mı? Müzik dikkati mi artırır, yoksa dağıtır mı? Uyku, aralıklı tekrar ve geri çağırma pratiği üzerine araştırmaların en güçlü desteklediği 6 öğrenme yöntemi.</description>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Yazılım Mühendisliği Hakkında 7 Mit ve Gerçekler</title>
+      <link>https://school.coyotiv.com/blog-7-mit-ve-gercek</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-7-mit-ve-gercek</guid>
+      <description>Matematik dehası olmak, çocuk yaşta başlamak ya da bilgisayar mühendisliği diploması şart mı? Yazılım mühendisliği hakkındaki en yaygın 7 miti ve gerçek yüzünü ele alıyoruz.</description>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

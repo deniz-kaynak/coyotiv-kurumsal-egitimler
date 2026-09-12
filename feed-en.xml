@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coyotiv Blog</title>
+    <link>https://school.coyotiv.com/blog-en</link>
+    <description>Insights on AI engineering, software careers, and learning — written by experts from Coyotiv's corporate trainings and Software School.</description>
+    <language>en-us</language>
+    <atom:link href="https://school.coyotiv.com/feed-en.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sat, 12 Sep 2026 00:35:39 GMT</lastBuildDate>
+    <item>
+      <title>Preparing Your Team for the AI Era: Why 90% of Corporate AI Projects End Up in the Trash</title>
+      <link>https://school.coyotiv.com/blog-preparing-team-ai-era-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-preparing-team-ai-era-en</guid>
+      <description>Industry observations show 90% of large enterprises' AI pilots fail. Coyotiv CEO Armağan Amcalar on the systemic organizational mistakes — from tool-first thinking to unaddressed employee fear — that turn AI investments into expensive digital graveyards.</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why Are Even Software Engineers With 5 Years of Experience Going Back to School?</title>
+      <link>https://school.coyotiv.com/blog-experienced-engineers-back-to-school-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-experienced-engineers-back-to-school-en</guid>
+      <description>At Coyotiv School of Software Engineering, cohorts are increasingly filled with 3-5 year industry veterans, not just beginners. Armağan Amcalar on why the definition of a software engineer has permanently changed in the AI era.</description>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Beyond the Facade of Code Generation: How to Spot Effective Software Education in the AI Era</title>
+      <link>https://school.coyotiv.com/blog-effective-software-education-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-effective-software-education-en</guid>
+      <description>AI can generate code, but what makes a software education actually valuable? Three defining markers of an engineering education that builds resilient professionals, from Coyotiv CEO Armağan Amcalar.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The End of &quot;Just-in-Case&quot; Learning: Master the Skill of Just-in-Time Mastery</title>
+      <link>https://school.coyotiv.com/blog-just-in-time-learning-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-just-in-time-learning-en</guid>
+      <description>Information is no longer scarce — it's a flood. Coyotiv CEO Armağan Amcalar on why the future belongs to engineers who learn exactly what they need, exactly when they need it.</description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>From Coder to Architect: Learning Software Engineering in the Age of AI</title>
+      <link>https://school.coyotiv.com/blog-coder-to-architect-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-coder-to-architect-en</guid>
+      <description>The software industry is undergoing a seismic shift. Coyotiv CEO Armağan Amcalar on why coding is becoming a commodity, judgment is becoming the scarce skill, and how to actually learn software engineering now.</description>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Architects of Universal Athens: From Code Labor to Digital Aristocracy</title>
+      <link>https://school.coyotiv.com/blog-universal-athens-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-universal-athens-en</guid>
+      <description>OpenAI's and Palantir's manifestos debate AI as social welfare or statecraft. Coyotiv CEO Armağan Amcalar proposes something more personal: a 'Universal Athens' where AI agents free every professional to become an architect.</description>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Problem with JavaScript</title>
+      <link>https://school.coyotiv.com/blog-problem-with-javascript-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-problem-with-javascript-en</guid>
+      <description>Why does it feel like there's always a migration looming every time a new framework ships? We look at where framework fatigue comes from, and a scientific method for choosing technology without falling for hype.</description>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>&quot;Vibe Coding Cleanup Specialist&quot; Roles Are Everywhere. Here's How to Never Need One</title>
+      <link>https://school.coyotiv.com/blog-vibe-coding-cleanup-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-vibe-coding-cleanup-en</guid>
+      <description>&quot;Vibe Coding Cleanup Specialist&quot; is now a real job title on LinkedIn. Here's the playbook for shipping fast with AI without ever needing one.</description>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Don't Just Prompt, Architect: 5 Real-World GenAI Projects for a Standout Portfolio</title>
+      <link>https://school.coyotiv.com/blog-genai-projects-portfolio-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-genai-projects-portfolio-en</guid>
+      <description>Move past hello-world AI demos. Five portfolio-worthy GenAI projects that force you to architect real solutions, not just call an API.</description>
+      <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to Plan Your Tech Career — Visualize It!</title>
+      <link>https://school.coyotiv.com/blog-plan-tech-career-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-plan-tech-career-en</guid>
+      <description>You don't need to know exactly where your career is headed to plan it well. Five concrete steps — from defining what you want to writing a personal mission statement — to build your tech career roadmap.</description>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to Survive Coyotiv School of Software Engineering</title>
+      <link>https://school.coyotiv.com/blog-survive-coyotiv-school-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-survive-coyotiv-school-en</guid>
+      <description>From imposter syndrome to taking real breaks, from realistic expectations to asking questions — 7 working principles to get through the program as effectively and healthily as possible.</description>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Houston, We Have a Problem: How to Master Your Problem-Solving Skills</title>
+      <link>https://school.coyotiv.com/blog-problem-solving-skills-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-problem-solving-skills-en</guid>
+      <description>Software engineering is ultimately all about problem-solving — coding is just a tool. Six concrete techniques, from orientation to the 5 Whys, for becoming a better problem solver.</description>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>What Does a Full-Stack Engineer Do?</title>
+      <link>https://school.coyotiv.com/blog-full-stack-engineer-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-full-stack-engineer-en</guid>
+      <description>Frontend, backend, databases, salaries, and financing your career change in Germany — a full breakdown of what full-stack software engineers actually do and why they're in demand.</description>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Can AI Replace Software Engineers?</title>
+      <link>https://school.coyotiv.com/blog-can-ai-replace-software-engineers-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-can-ai-replace-software-engineers-en</guid>
+      <description>If AI can write code, why do we still need software engineers? We look at what ChatGPT can and can't do, and why software engineering is about far more than generating code.</description>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How We Learn: 6 Science-Based Tips to Maximize Comprehension, Memory and Learning</title>
+      <link>https://school.coyotiv.com/blog-how-we-learn-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-how-we-learn-en</guid>
+      <description>Does studying late into the night actually work? Does music help you focus, or distract you? Six learning methods best supported by research, from sleep and spaced repetition to active recall.</description>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>6 Myths of Software Engineering—DEBUNKED!</title>
+      <link>https://school.coyotiv.com/blog-six-myths-software-engineering-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-six-myths-software-engineering-en</guid>
+      <description>Do software engineers really sit alone coding in the dark all day? We debunk 6 common myths about math skills, computer science degrees, and who really becomes a software engineer.</description>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
