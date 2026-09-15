@@ -6,7 +6,14 @@
     <description>Insights on AI engineering, software careers, and learning — written by experts from Coyotiv's corporate trainings and Software School.</description>
     <language>en-us</language>
     <atom:link href="https://school.coyotiv.com/feed-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 12 Sep 2026 00:35:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>The Case for Wile E. Coyote, Engineer: How a Cartoon Character Shaped the Way We Build</title>
+      <link>https://school.coyotiv.com/blog-wile-e-coyote-engineer-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-wile-e-coyote-engineer-en</guid>
+      <description>Why is a Berlin software school named after a cartoon coyote? On engineering persistence, vendor lock-in, questioning constraints, and why real coyotes — like good engineers — work best in packs.</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Preparing Your Team for the AI Era: Why 90% of Corporate AI Projects End Up in the Trash</title>
       <link>https://school.coyotiv.com/blog-preparing-team-ai-era-en</link>
