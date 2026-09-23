@@ -6,7 +6,14 @@
     <description>Insights on AI engineering, software careers, and learning — written by experts from Coyotiv's corporate trainings and Software School.</description>
     <language>en-us</language>
     <atom:link href="https://school.coyotiv.com/feed-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Breaking the Hardware Barrier: How GEA Stack is Revolutionizing Game Development</title>
+      <link>https://school.coyotiv.com/blog-gea-stack-xbox-en</link>
+      <guid isPermaLink="true">https://school.coyotiv.com/blog-gea-stack-xbox-en</guid>
+      <description>GEA Stack compiles JavaScript, TypeScript, and Three.js ahead-of-time into native C++, letting teams ship the same codebase natively on Xbox Series X, macOS, and mobile. Coyotiv CEO Armağan Amcalar on the architecture behind Skytail, a flight game running at native 4K and 60 FPS.</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>The Case for Wile E. Coyote, Engineer: How a Cartoon Character Shaped the Way We Build</title>
       <link>https://school.coyotiv.com/blog-wile-e-coyote-engineer-en</link>
