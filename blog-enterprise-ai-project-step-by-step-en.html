@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
+<title>How to Plan an Enterprise AI Project: A Step-by-Step Example</title>
+<meta name="description" content="How does an enterprise AI project unfold? A customer support scenario covers workflow analysis, scoping, testing, the AI pilot, and the go-live decision.">
+<link rel="canonical" href="https://school.coyotiv.com/blog-enterprise-ai-project-step-by-step-en">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Coyotiv">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="How to Plan an Enterprise AI Project: A Step-by-Step Example">
+<meta property="og:description" content="How does an enterprise AI project unfold? A customer support scenario covers workflow analysis, scoping, testing, the AI pilot, and the go-live decision.">
+<meta property="og:url" content="https://school.coyotiv.com/blog-enterprise-ai-project-step-by-step-en">
+<meta property="og:image" content="https://school.coyotiv.com/assets/og-image-en.png">
+<meta property="article:published_time" content="2026-11-11">
+<meta property="article:modified_time" content="2026-11-11">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Plan an Enterprise AI Project: A Step-by-Step Example">
+<meta name="twitter:description" content="How does an enterprise AI project unfold? A customer support scenario covers workflow analysis, scoping, testing, the AI pilot, and the go-live decision.">
+<meta name="twitter:image" content="https://school.coyotiv.com/assets/og-image-en.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to Plan an Enterprise AI Project: A Step-by-Step Customer Support Scenario",
+  "description": "How does an enterprise AI project unfold? A customer support scenario covers workflow analysis, scoping, testing, the AI pilot, and the go-live decision.",
+  "image": "https://school.coyotiv.com/assets/og-image-en.png",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
+  "author": {
+    "@type": "Organization",
+    "name": "Coyotiv"
+  },
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "name": "Coyotiv",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://school.coyotiv.com/assets/coyotiv-logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://school.coyotiv.com/blog-enterprise-ai-project-step-by-step-en"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where should an enterprise AI project start?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A strong starting point is the business problem and the existing workflow, not the model or tool. Once you understand how the work is done today, which decisions are involved, what information people rely on, and where the process is struggling, it becomes much easier to identify where AI could create meaningful value."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does an AI pilot take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no universal timeline. The length of a pilot depends on the complexity of the workflow, access to data and systems, integration requirements, and internal approval processes. In many use cases, however, a controlled pilot running over several weeks can begin to produce enough evidence to understand how the system performs on real cases and where its limits lie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you know whether an AI project is successful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Success should not be measured by speed alone. Output quality, review and correction effort, error types, exception rates, human intervention, and the total cost of the workflow all matter. The real gain comes from improving the end-to-end process, not simply from generating an answer faster."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should an AI agent respond directly to customers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. For a new or higher-risk use case, starting with an AI agent that drafts responses for human review often provides a safer and more measurable path. As the system is tested against real cases and its limits become better understood, the level of automation can be increased where the evidence supports it."
+      }
+    }
+  ]
+}
+</script>
+<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"b36ab27b513c1ced8b4a490208c99563"})});</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="en" class="logo"><img src="assets/coyotiv-logo.png" alt="Coyotiv" class="logo-img"></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="blog-en#articles">Articles</a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <div class="header-ctas">
+        <a href="en" class="btn btn-fuchsia btn-nav">Corporate Training</a>
+        <a href="yazilim-okulu-en" class="btn btn-primary btn-nav">Software School</a>
+      </div>
+      <div class="lang-switch">
+        <span class="lang-current">EN</span>
+        <span class="lang-sep">|</span>
+        <a href="blog-kurumsal-yapay-zeka-projesi-nasil-yapilir">TR</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="section article-section">
+    <div class="container">
+      <div class="article">
+        <a href="blog-en" class="article-crosslink">← Back to all articles</a>
+        <p class="article-meta">AI &amp; Corporate Training · November 11, 2026 · 11 min read</p>
+        <h1>How to Plan an Enterprise AI Project: A Step-by-Step Customer Support Scenario</h1>
+
+        <div class="article-body">
+          <p class="article-lead">Where do you start with an enterprise AI project? Which problem is worth solving, what data should the system use, and what should you test before putting anything into production? Here is how we approach the process at Coyotiv, using a customer support scenario to follow the journey from an initial idea to an AI pilot and, eventually, live use.</p>
+
+          <p>Imagine a mid-sized e-commerce company whose customer support team handles thousands of requests every month. Questions about order status, deliveries, exchanges, and returns make up a large share of that volume. During busy periods, response times begin to slip, agents find themselves answering the same questions over and over, and the company starts looking at AI as a way to improve efficiency.</p>
+
+          <p>The first idea is usually a familiar one: "Let's build an AI agent that can answer customers."</p>
+
+          <p>It is a perfectly reasonable place to start the conversation, but it is still far too broad to serve as the basis for a real enterprise AI project. Customer support is not one task. It is a collection of smaller workflows involving different sources of information, decisions, exceptions, and areas of responsibility.</p>
+
+          <p>That is why, at Coyotiv, we do not begin by choosing a model or a tool. We begin by asking <strong>which part of the work we are actually trying to improve.</strong></p>
+
+          <h2>1. We start by understanding the existing workflow</h2>
+
+          <p>The first step is to look closely at how the customer support team works today.</p>
+
+          <p>What happens when a return request comes in? Where does the support agent check the order date? Which policy do they consult? Do the rules change depending on the product category? Which requests need to be escalated to another team?</p>
+
+          <p>From the outside, "answering a customer's return question" can look like a single task. In practice, it is usually a chain of small decisions.</p>
+
+          <p>The agent first needs to understand what the customer is asking. They then check the order date, identify the product category, and find the current return policy. Promotional items may be subject to different rules. In some cases, the support team may need approval from another department before responding.</p>
+
+          <p>Our goal at this stage is not simply to document the official process. We also want to uncover the decisions people make while doing the job, many of which may never have been written down.</p>
+
+          <p>Those are exactly the decisions an AI assistant will eventually encounter.</p>
+
+          <p>This exercise often gives the company a fresh view of its own operations. Processes that "everyone already knows" may turn out to vary from one employee to another. Some rules may exist only as team knowledge. Two experienced agents may even handle the same situation differently.</p>
+
+          <p>If the workflow itself is unclear, adding AI on top of it will not make it clearer. The process needs to be understood before it can be automated or augmented.</p>
+
+          <h2>2. We turn a broad ambition into a testable AI use case</h2>
+
+          <p>"Transform customer service with AI" may work as a strategic ambition. It does not make a very useful pilot.</p>
+
+          <p>So we narrow the scope.</p>
+
+          <p>A first use case might look like this:</p>
+
+          <p><strong>An AI assistant that drafts responses to standard return requests using company-approved policies, for a support agent to review before sending.</strong></p>
+
+          <p>That definition immediately gives the project useful boundaries.</p>
+
+          <p>The assistant does not respond directly to customers at first. It prepares a draft for the support agent. It does not deal with topics outside returns. It only uses approved sources. If it does not have enough information to answer reliably, it should say so or hand the case back to a human.</p>
+
+          <p>These constraints do not make the project less ambitious. They make it possible to evaluate.</p>
+
+          <p>The less clearly an enterprise AI project is scoped, the easier it is to declare success. "AI works well in customer service" is a very easy claim to make. "It reduces review time for standard return requests by X%, while promotional products still require human intervention" is a real project outcome.</p>
+
+          <p>The second is far more useful.</p>
+
+          <h2>3. Before building the AI, we look at the company's information</h2>
+
+          <p>An AI agent is only as reliable as the information it can access.</p>
+
+          <p>Before building a prototype, we therefore review the return policies, help center articles, internal documents, and, where appropriate, previous customer responses used by the support team.</p>
+
+          <p>This is often where the first surprise appears.</p>
+
+          <p>Last year's promotional terms may still sit in the same folder as this year's version. The help center may have been updated while an internal PDF still contains the old policy. Experienced employees may follow exceptions that have never been documented at all.</p>
+
+          <p>A person who knows the business can often tell which document is current. Giving an AI system several conflicting sources and expecting it to make the same judgment is much riskier.</p>
+
+          <p>So part of the work is deciding which information the system can trust, who owns that information, and what happens when a document becomes outdated.</p>
+
+          <p>At this point, what began as an AI project often starts to expose a knowledge management problem as well.</p>
+
+          <p>That does not mean the project has gone off track. It means the work is revealing one of the conditions that will determine whether the AI system can be trusted in the first place.</p>
+
+          <h2>4. We test the AI prototype with real customer cases</h2>
+
+          <p>Once the information sources are clear enough, we can start building the first prototype.</p>
+
+          <p>The goal is not to create an impressive demo. It is to find out what happens when the system encounters the messiness of real work.</p>
+
+          <p>That means the test set cannot contain only easy examples.</p>
+
+          <p>We might include a straightforward question such as, "I bought this yesterday. Can I return it?" But we also include more ambiguous cases. Perhaps the customer bought the product during a promotion. Perhaps they forgot to mention the order date. They may ask about both a return and an exchange in the same message. The product category itself may be unclear.</p>
+
+          <p>The final answer produced by the AI matters, but it is only part of what we are evaluating.</p>
+
+          <p>Did it use the right source? Did it notice that important information was missing? Did it make an assumption when it should not have? Did it recognize when a human needed to take over? And from the support agent's perspective, was reviewing the draft actually easier than writing the response from scratch?</p>
+
+          <p>Each of these questions tells us something different about whether the system is suitable for day-to-day work.</p>
+
+          <p>A prototype may perform well on 90% of cases, for example. That number tells us very little until we understand the remaining 10%.</p>
+
+          <p>Fixing an awkward sentence is not the same kind of failure as incorrectly telling a customer that they are entitled to a refund.</p>
+
+          <p>For that reason, we evaluate not only whether an answer is right or wrong, but also the consequences of being wrong.</p>
+
+          <h2>5. In the AI pilot, we measure the whole job, not just speed</h2>
+
+          <p>Speed is usually the easiest AI benefit to demonstrate.</p>
+
+          <p>If the system can produce a draft in twenty seconds and a support agent normally spends four minutes writing the same response, the improvement appears obvious.</p>
+
+          <p>But the calculation changes if the agent then spends two minutes reviewing the draft, checking the original source, and rewriting a significant number of responses.</p>
+
+          <p>That is why an AI pilot should not measure generation time alone.</p>
+
+          <p>The more useful question is:</p>
+
+          <p><strong>Is the work actually being done better?</strong></p>
+
+          <p>To answer it, we look at the time required to prepare the response, the effort spent reviewing and correcting it, the types of errors the system makes, how often a human needs to intervene, and, where relevant, the operational cost of running the system.</p>
+
+          <p>In some categories of requests, the AI assistant may create a meaningful improvement. In others, it may still be faster and safer for the support agent to handle the request directly.</p>
+
+          <p>That distinction matters.</p>
+
+          <p>The purpose of a well-designed AI pilot is not to prove that AI works everywhere. It is to identify where it creates value, where its limits are, and under what conditions it can be used reliably.</p>
+
+          <p>Sometimes the most useful outcome of a pilot is discovering early that a particular use case is not as valuable as expected.</p>
+
+          <h2>6. At the end of the AI pilot, we make a deployment decision</h2>
+
+          <p>After several rounds of testing, a much more realistic picture begins to emerge.</p>
+
+          <p>The AI assistant may prove reliable at drafting responses for standard return requests and reduce the team's overall response time. Promotional products, on the other hand, may still require closer human review because the rules change more frequently.</p>
+
+          <p>When information is missing, the system may be able to ask the customer for the right details rather than guessing. Certain product categories may remain completely outside the scope for now.</p>
+
+          <p>At this stage, we are no longer saying something vague like "the AI works well."</p>
+
+          <p>We have a defined workflow that tells us where the system can be used, which information it can rely on, and how much human oversight is still required.</p>
+
+          <p>The company might decide to launch a limited live pilot for standard returns while keeping promotional products in a test environment. Other scenarios may need additional integrations before they can move forward.</p>
+
+          <p>Once a system is considered for live use, the project also changes in nature. The challenge is no longer just building it. The company now has to operate it.</p>
+
+          <p>What happens when the return policy changes? Who updates the source? Who monitors response quality? If the model, prompt, or knowledge source changes, are the same tests run again? If the system fails, how does the support team fall back to the existing process?</p>
+
+          <p>The long-term reliability of an enterprise AI system is often determined by the answers to these operational questions.</p>
+
+          <h2>Where does enterprise AI training fit into this process?</h2>
+
+          <p>At Coyotiv, we do not treat enterprise AI training as a theoretical phase that happens before the real project begins.</p>
+
+          <p>Learning and implementation move together.</p>
+
+          <p>While the support team learns how AI systems work, they are also analyzing their own workflow. As the prototype develops, they see how prompt design and knowledge sources affect the system. During testing, they learn how to evaluate output quality. As the pilot progresses, they develop a clearer understanding of where human oversight is needed, what the system's limits are, and what it takes to maintain it.</p>
+
+          <p>This has an important effect on the outcome.</p>
+
+          <p>The project does not become a black box built by an external team and handed over at the end.</p>
+
+          <p>The company's own employees understand why the system was designed the way it was, under which conditions it can be trusted, and when a person needs to step in.</p>
+
+          <p>That is also why we do not see enterprise AI training as a one-day course. It is not simply a question of training design. It directly affects whether an AI system can be understood, owned, and operated inside the organization.</p>
+
+          <h2>What should an enterprise AI project produce?</h2>
+
+          <p>A well-run enterprise AI project should leave behind more than an impressive demo or a training deck.</p>
+
+          <p>In this customer support example, the company would have a workflow tested against real cases, a set of approved information sources, evaluation scenarios, clearly defined points for human intervention, pilot results, and a roadmap for what comes next.</p>
+
+          <p>The system may be ready for live use in a limited set of cases. It may need a few more technical integrations. Or the tests may show that the expected efficiency gains are simply not there.</p>
+
+          <p>All three are valuable outcomes.</p>
+
+          <p>The goal of enterprise AI is not to add AI to every process that can technically support it. The goal is to <strong>identify where AI genuinely improves the work, then make that improvement reliable, measurable, and sustainable in day-to-day operations.</strong></p>
+
+          <p>Coyotiv's <a href="en">enterprise AI training and implementation support</a> is designed around that process, using each organization's own teams, tools, and workflows as the starting point.</p>
+
+          <h2>Frequently asked questions about enterprise AI projects</h2>
+
+          <h3>Where should an enterprise AI project start?</h3>
+
+          <p>A strong starting point is the business problem and the existing workflow, not the model or tool. Once you understand how the work is done today, which decisions are involved, what information people rely on, and where the process is struggling, it becomes much easier to identify where AI could create meaningful value.</p>
+
+          <h3>How long does an AI pilot take?</h3>
+
+          <p>There is no universal timeline. The length of a pilot depends on the complexity of the workflow, access to data and systems, integration requirements, and internal approval processes. In many use cases, however, a controlled pilot running over several weeks can begin to produce enough evidence to understand how the system performs on real cases and where its limits lie.</p>
+
+          <h3>How do you know whether an AI project is successful?</h3>
+
+          <p>Success should not be measured by speed alone. Output quality, review and correction effort, error types, exception rates, human intervention, and the total cost of the workflow all matter. The real gain comes from improving the end-to-end process, not simply from generating an answer faster.</p>
+
+          <h3>Should an AI agent respond directly to customers?</h3>
+
+          <p>Not necessarily. For a new or higher-risk use case, starting with an AI agent that drafts responses for human review often provides a safer and more measurable path. As the system is tested against real cases and its limits become better understood, the level of automation can be increased where the evidence supports it.</p>
+        </div>
+
+        <div class="callout article-footer-cta">
+          <p class="callout-title">Enterprise AI training and implementation support</p>
+          <p>Explore how Coyotiv builds its corporate programs around your team's own workflows.</p>
+          <div class="hero-ctas hero-ctas-center">
+            <a href="en" class="btn btn-fuchsia">Explore enterprise training →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-expanded-grid">
+    <div class="footer-col footer-col-brand">
+      <img src="assets/coyotiv-logo.png" alt="Coyotiv" class="footer-logo-img">
+      <p>Insights on AI engineering, software careers, and learning — written by experts from Coyotiv's corporate trainings and Software School.</p>
+      <div class="footer-social">
+        <a href="https://www.youtube.com/c/Coyotiv" target="_blank" rel="noopener" aria-label="Coyotiv on YouTube">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M23.5 6.5s-.23-1.64-.94-2.36c-.9-.94-1.9-.94-2.36-1C17 3 12 3 12 3h-.01s-5 0-8.19.14c-.46.06-1.46.06-2.36 1C.73 4.86.5 6.5.5 6.5S.27 8.42.27 10.35v1.79c0 1.93.23 3.85.23 3.85s.23 1.64.94 2.36c.9.94 2.08.91 2.6 1.01C5.87 19.5 12 19.55 12 19.55s5.01-.01 8.2-.15c.46-.06 1.46-.06 2.36-1 .71-.72.94-2.36.94-2.36s.23-1.92.23-3.85v-1.79c0-1.93-.23-3.85-.23-3.85zM9.55 14.62V8.38l6.02 3.12-6.02 3.12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/school/coyotiv/" target="_blank" rel="noopener" aria-label="Coyotiv on LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.62 0 4.28 2.38 4.28 5.48v6.26zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/coyotiv" target="_blank" rel="noopener" aria-label="Coyotiv on Instagram">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.24 2.22.41.56.21.96.47 1.38.89.42.42.68.82.89 1.38.17.42.36 1.05.41 2.22.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.8-.41 2.22-.21.56-.47.96-.89 1.38-.42.42-.82.68-1.38.89-.42.17-1.05.36-2.22.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.24-2.22-.41-.56-.21-.96-.47-1.38-.89-.42-.42-.68-.82-.89-1.38-.17-.42-.36-1.05-.41-2.22-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.24-1.8.41-2.22.21-.56.47-.96.89-1.38.42-.42.82-.68 1.38-.89.42-.17 1.05-.36 2.22-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.39C1.35 2.68.94 3.35.63 4.14c-.3.76-.5 1.64-.56 2.91C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.39 2.13.67.67 1.34 1.08 2.13 1.39.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.39.67-.67 1.08-1.34 1.39-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.39-2.13C21.32 1.35 20.65.94 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-10.85a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Site</h4>
+      <a href="en">Corporate Training</a>
+      <a href="yazilim-okulu-en">Software School</a>
+      <a href="blog-en">Blog</a>
+      <a href="about-en">About</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="privacy-policy">Privacy Policy</a>
+      <a href="terms-conditions">Terms &amp; Conditions</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:contact@coyotiv.com">contact@coyotiv.com</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© Copyright 2026. All rights reserved by Coyotiv.</p>
+    <p>Berlin, Germany</p>
+  </div>
+</footer>
+
+</body></html>
