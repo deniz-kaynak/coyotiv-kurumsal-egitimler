@@ -2474,3 +2474,8 @@ section {
     font-size: 1.9rem;
   }
 }
+
+/* Blog card without a cover image: body spans the full width */
+.blog-card:not(:has(.blog-card-cover)) {
+  grid-template-columns: 1fr;
+}
