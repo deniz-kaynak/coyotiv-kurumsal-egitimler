@@ -3,6 +3,7 @@
   "trailingSlash": false,
   "redirects": [
     { "source": "/ai-hazirlik-raporu", "destination": "/fark-karnesi", "permanent": true },
+    { "source": "/gorusme", "destination": "https://calendly.com/coyotiv-collab/intro-call", "permanent": false },
     { "source": "/privacypolicy", "destination": "/privacy-policy", "permanent": true },
     { "source": "/termsconditions", "destination": "/terms-conditions", "permanent": true },
     { "source": "/instructors", "destination": "/yazilim-okulu-en#instructors", "permanent": true },
