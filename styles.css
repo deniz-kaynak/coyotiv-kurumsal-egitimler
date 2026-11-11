@@ -2529,3 +2529,5 @@ section {
   .report-band-cta { align-items: flex-start; }
   .report-band h2 { font-size: 1.35rem; }
 }
+
+.blog-report-callout { max-width: 760px; margin: 32px auto 0; padding: 28px; }
